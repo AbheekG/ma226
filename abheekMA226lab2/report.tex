@@ -1,0 +1,709 @@
+\documentclass{article}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{mybigpackage}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\begin{document}
+	\title{\textbf{Assignment-2}}
+	\author{Abheek Ghosh \\ 
+		140123047 }
+	
+	\maketitle
+	
+\noindent{A custom header file with some functions used in both question. Code for C++}
+
+\begin{lstlisting}
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+long base_generator(long a, long x, long q, long r, long m) {
+long k=x/q;
+x = (a * (x - (k * q))) - (k * r);
+while(x<0) x+=m;
+return x;
+}
+\end{lstlisting}
+
+\section{Question 1}
+
+\noindent{Code for C++}
+
+\begin{lstlisting}
+#include<iostream>
+#include<iomanip>
+#include"lab2.h"
+
+using namespace std;
+
+long generate(long a, long m, long x, long n, int range) {
+double u;
+unsigned long Density[range];
+for(int i=0;i<range;++i) {
+Density[i] = 0;
+}
+cout<<"Initial values, a = "<<a<<", m = "<<m<<", x_0 = "<<x<<", n = "<<n<<"\n";
+long q=m/a, r=m%a, k;
+for(int j=0;j<n;++j) {
+u = (double)x/(double)m;
+x = base_generator(a,x,q,r,m);
+Density[(int)(u*range)]++ ;
+cout<<"x"<<j<<"= "<<x<<"\tu"<<j<<"= "<<setprecision(10)<<u<<"\n";
+}
+
+cout<<"$$a = "<<a<<", m = "<<m<<", x_0 = "<<x<<", n = "<<n<<"$$\n";
+cout<<"\n\\begin{center} \\begin{tabular}{||c | c||}  \\hline\n";
+cout<<"Range & Frequency \\\\ [0.5ex] \\hline \\hline";
+u = (long double)1/(long double)range;
+for(int i=0;i<range;++i) {
+cout<<setprecision(2)<<(u*i)<<"-"<<(u*(i+1))<<" & "<<Density[i]<<"\\\\\n \\hline \n";
+}
+cout<<"\\end{tabular} \n \\end{center}\n";
+return 0;
+}
+
+int plotdata(long a, long m, long x, long n) {
+double u,v;
+long q=m/a, r=m%a, k;
+cout<<"Initial value, $x_0$ = "<<x<<"\n";
+u = (long double)x/(long double)m;
+for(int j=0;j<n;++j) {
+x = base_generator(a,x,q,r,m);
+v = u;
+u = (long double)x/(long double)m;
+cout<<"u"<<j<<"= "<<fixed<<setprecision(10)<<v<<"\tu"<<j+1<<"= "<<u<<"\n";
+}
+cout<<endl;
+return 0;
+}
+
+int main() {
+long x=1,a[] = {16807,40692,40014},m[] = {2147483647,2147483399,2147483563},n=1000;
+
+for(int i=0;i<3;++i) {
+for(n=1000;n<=100000; n=n*10)
+generate(a[i],m[i],x,n,20);
+}
+
+plotdata(a[0],m[0],x,100000);
+}
+
+\end{lstlisting}
+
+From the bar graphs we observe that the numbers generated are very random 
+and distribute uniformly as we increase their count.
+
+The autocorrelation between $u(i)$ and $u(i+1)$ is very low and they are 
+not (or very less) dependent on each other as we see from the $u(i)$ vs $u(i+1)$ plot
+\begin{table}
+
+$$a = 16807, m = 2147483647, x_0 = 522329230, n = 1000,10000,100000$$
+\parbox{.3\linewidth}{
+ \begin{tabular}{||c | c||}  \hline
+		Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 46\\
+		\hline 
+		0.05-0.1 & 51\\
+		\hline 
+		0.1-0.15 & 51\\
+		\hline 
+		0.15-0.2 & 46\\
+		\hline 
+		0.2-0.25 & 46\\
+		\hline 
+		0.25-0.3 & 50\\
+		\hline 
+		0.3-0.35 & 39\\
+		\hline 
+		0.35-0.4 & 54\\
+		\hline 
+		0.4-0.45 & 58\\
+		\hline 
+		0.45-0.5 & 59\\
+		\hline 
+		0.5-0.55 & 64\\
+		\hline 
+		0.55-0.6 & 47\\
+		\hline 
+		0.6-0.65 & 39\\
+		\hline 
+		0.65-0.7 & 71\\
+		\hline 
+		0.7-0.75 & 52\\
+		\hline 
+		0.75-0.8 & 42\\
+		\hline 
+		0.8-0.85 & 55\\
+		\hline 
+		0.85-0.9 & 41\\
+		\hline 
+		0.9-0.95 & 47\\
+		\hline 
+		0.95-1 & 42\\
+		\hline 
+	\end{tabular} 
+}
+\parbox{.3\linewidth}{
+
+ \begin{tabular}{||c | c||}  \hline
+		Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 487\\
+		\hline 
+		0.05-0.1 & 507\\
+		\hline 
+		0.1-0.15 & 499\\
+		\hline 
+		0.15-0.2 & 508\\
+		\hline 
+		0.2-0.25 & 508\\
+		\hline 
+		0.25-0.3 & 490\\
+		\hline 
+		0.3-0.35 & 470\\
+		\hline 
+		0.35-0.4 & 488\\
+		\hline 
+		0.4-0.45 & 491\\
+		\hline 
+		0.45-0.5 & 509\\
+		\hline 
+		0.5-0.55 & 537\\
+		\hline 
+		0.55-0.6 & 512\\
+		\hline 
+		0.6-0.65 & 493\\
+		\hline 
+		0.65-0.7 & 496\\
+		\hline 
+		0.7-0.75 & 471\\
+		\hline 
+		0.75-0.8 & 492\\
+		\hline 
+		0.8-0.85 & 510\\
+		\hline 
+		0.85-0.9 & 516\\
+		\hline 
+		0.9-0.95 & 479\\
+		\hline 
+		0.95-1 & 537\\
+		\hline 
+	\end{tabular} 
+}
+\parbox{.3\linewidth}{
+ \begin{tabular}{||c | c||}  \hline
+		Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 4940\\
+		\hline 
+		0.05-0.1 & 5107\\
+		\hline 
+		0.1-0.15 & 4999\\
+		\hline 
+		0.15-0.2 & 5017\\
+		\hline 
+		0.2-0.25 & 4934\\
+		\hline 
+		0.25-0.3 & 4929\\
+		\hline 
+		0.3-0.35 & 4959\\
+		\hline 
+		0.35-0.4 & 4919\\
+		\hline 
+		0.4-0.45 & 4938\\
+		\hline 
+		0.45-0.5 & 5074\\
+		\hline 
+		0.5-0.55 & 5152\\
+		\hline 
+		0.55-0.6 & 5133\\
+		\hline 
+		0.6-0.65 & 5024\\
+		\hline 
+		0.65-0.7 & 4907\\
+		\hline 
+		0.7-0.75 & 4976\\
+		\hline 
+		0.75-0.8 & 4979\\
+		\hline 
+		0.8-0.85 & 5040\\
+		\hline 
+		0.85-0.9 & 5078\\
+		\hline 
+		0.9-0.95 & 4948\\
+		\hline 
+		0.95-1 & 4947\\
+		\hline 
+	\end{tabular} 
+}
+
+\end{table}
+
+\includegraphics[scale=0.3]{"bar1_1_1"}
+
+\includegraphics[scale=0.3]{"bar1_1_2"}
+
+\includegraphics[scale=0.3]{"bar1_1_3"}
+\pagebreak
+
+\begin{table}
+
+$$a = 40692, m = 2147483399, x_0 = 2121278613, n = 1000,10000,100000$$
+
+
+\parbox{.3\linewidth}{
+ \begin{tabular}{||c | c||}  \hline
+		Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 50\\
+		\hline 
+		0.05-0.1 & 53\\
+		\hline 
+		0.1-0.15 & 53\\
+		\hline 
+		0.15-0.2 & 50\\
+		\hline 
+		0.2-0.25 & 58\\
+		\hline 
+		0.25-0.3 & 39\\
+		\hline 
+		0.3-0.35 & 44\\
+		\hline 
+		0.35-0.4 & 41\\
+		\hline 
+		0.4-0.45 & 57\\
+		\hline 
+		0.45-0.5 & 41\\
+		\hline 
+		0.5-0.55 & 46\\
+		\hline 
+		0.55-0.6 & 59\\
+		\hline 
+		0.6-0.65 & 50\\
+		\hline 
+		0.65-0.7 & 58\\
+		\hline 
+		0.7-0.75 & 52\\
+		\hline 
+		0.75-0.8 & 53\\
+		\hline 
+		0.8-0.85 & 54\\
+		\hline 
+		0.85-0.9 & 46\\
+		\hline 
+		0.9-0.95 & 47\\
+		\hline 
+		0.95-1 & 49\\
+		\hline 
+	\end{tabular} 
+
+}
+\parbox{.3\linewidth}{
+	
+ \begin{tabular}{||c | c||}  \hline
+		Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 490\\
+		\hline 
+		0.05-0.1 & 525\\
+		\hline 
+		0.1-0.15 & 485\\
+		\hline 
+		0.15-0.2 & 493\\
+		\hline 
+		0.2-0.25 & 509\\
+		\hline 
+		0.25-0.3 & 517\\
+		\hline 
+		0.3-0.35 & 455\\
+		\hline 
+		0.35-0.4 & 540\\
+		\hline 
+		0.4-0.45 & 509\\
+		\hline 
+		0.45-0.5 & 457\\
+		\hline 
+		0.5-0.55 & 507\\
+		\hline 
+		0.55-0.6 & 540\\
+		\hline 
+		0.6-0.65 & 473\\
+		\hline 
+		0.65-0.7 & 519\\
+		\hline 
+		0.7-0.75 & 509\\
+		\hline 
+		0.75-0.8 & 482\\
+		\hline 
+		0.8-0.85 & 505\\
+		\hline 
+		0.85-0.9 & 497\\
+		\hline 
+		0.9-0.95 & 474\\
+		\hline 
+		0.95-1 & 514\\
+		\hline 
+	\end{tabular} 
+
+}
+\parbox{.3\linewidth}{
+
+ \begin{tabular}{||c | c||}  \hline
+		Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 5009\\
+		\hline 
+		0.05-0.1 & 4964\\
+		\hline 
+		0.1-0.15 & 4984\\
+		\hline 
+		0.15-0.2 & 5114\\
+		\hline 
+		0.2-0.25 & 4977\\
+		\hline 
+		0.25-0.3 & 5031\\
+		\hline 
+		0.3-0.35 & 4948\\
+		\hline 
+		0.35-0.4 & 5109\\
+		\hline 
+		0.4-0.45 & 4958\\
+		\hline 
+		0.45-0.5 & 5054\\
+		\hline 
+		0.5-0.55 & 5031\\
+		\hline 
+		0.55-0.6 & 4987\\
+		\hline 
+		0.6-0.65 & 4912\\
+		\hline 
+		0.65-0.7 & 4995\\
+		\hline 
+		0.7-0.75 & 5015\\
+		\hline 
+		0.75-0.8 & 4981\\
+		\hline 
+		0.8-0.85 & 4965\\
+		\hline 
+		0.85-0.9 & 4963\\
+		\hline 
+		0.9-0.95 & 4968\\
+		\hline 
+		0.95-1 & 5035\\
+		\hline 
+	\end{tabular} 
+}
+\end{table}
+
+\includegraphics[scale=0.3]{"bar1_2_1"}
+
+\includegraphics[scale=0.3]{"bar1_2_2"}
+
+\includegraphics[scale=0.3]{"bar1_2_3"}
+\pagebreak
+
+\begin{table}
+$$a = 40014, m = 2147483563, x_0 = 1487191379, n = 1000,10000,100000$$
+
+\parbox{.3\linewidth}{
+ \begin{tabular}{||c | c||}  \hline
+		Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 57\\
+		\hline 
+		0.05-0.1 & 53\\
+		\hline 
+		0.1-0.15 & 50\\
+		\hline 
+		0.15-0.2 & 52\\
+		\hline 
+		0.2-0.25 & 47\\
+		\hline 
+		0.25-0.3 & 49\\
+		\hline 
+		0.3-0.35 & 52\\
+		\hline 
+		0.35-0.4 & 44\\
+		\hline 
+		0.4-0.45 & 45\\
+		\hline 
+		0.45-0.5 & 48\\
+		\hline 
+		0.5-0.55 & 38\\
+		\hline 
+		0.55-0.6 & 50\\
+		\hline 
+		0.6-0.65 & 63\\
+		\hline 
+		0.65-0.7 & 53\\
+		\hline 
+		0.7-0.75 & 49\\
+		\hline 
+		0.75-0.8 & 46\\
+		\hline 
+		0.8-0.85 & 50\\
+		\hline 
+		0.85-0.9 & 60\\
+		\hline 
+		0.9-0.95 & 43\\
+		\hline 
+		0.95-1 & 51\\
+		\hline 
+	\end{tabular} 
+
+}
+\parbox{.3\linewidth}{
+ \begin{tabular}{||c | c||}  \hline
+		Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 502\\
+		\hline 
+		0.05-0.1 & 495\\
+		\hline 
+		0.1-0.15 & 492\\
+		\hline 
+		0.15-0.2 & 463\\
+		\hline 
+		0.2-0.25 & 526\\
+		\hline 
+		0.25-0.3 & 533\\
+		\hline 
+		0.3-0.35 & 524\\
+		\hline 
+		0.35-0.4 & 488\\
+		\hline 
+		0.4-0.45 & 468\\
+		\hline 
+		0.45-0.5 & 517\\
+		\hline 
+		0.5-0.55 & 499\\
+		\hline 
+		0.55-0.6 & 503\\
+		\hline 
+		0.6-0.65 & 478\\
+		\hline 
+		0.65-0.7 & 484\\
+		\hline 
+		0.7-0.75 & 521\\
+		\hline 
+		0.75-0.8 & 501\\
+		\hline 
+		0.8-0.85 & 496\\
+		\hline 
+		0.85-0.9 & 551\\
+		\hline 
+		0.9-0.95 & 488\\
+		\hline 
+		0.95-1 & 471\\
+		\hline 
+	\end{tabular} 
+
+}
+\parbox{.3\linewidth}{
+ \begin{tabular}{||c | c||}  \hline
+		Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 5103\\
+		\hline 
+		0.05-0.1 & 4947\\
+		\hline 
+		0.1-0.15 & 5142\\
+		\hline 
+		0.15-0.2 & 4948\\
+		\hline 
+		0.2-0.25 & 5006\\
+		\hline 
+		0.25-0.3 & 5014\\
+		\hline 
+		0.3-0.35 & 5088\\
+		\hline 
+		0.35-0.4 & 5081\\
+		\hline 
+		0.4-0.45 & 5044\\
+		\hline 
+		0.45-0.5 & 4798\\
+		\hline 
+		0.5-0.55 & 4994\\
+		\hline 
+		0.55-0.6 & 5007\\
+		\hline 
+		0.6-0.65 & 4968\\
+		\hline 
+		0.65-0.7 & 4971\\
+		\hline 
+		0.7-0.75 & 4983\\
+		\hline 
+		0.75-0.8 & 4967\\
+		\hline 
+		0.8-0.85 & 5036\\
+		\hline 
+		0.85-0.9 & 4990\\
+		\hline 
+		0.9-0.95 & 4905\\
+		\hline 
+		0.95-1 & 5008\\
+		\hline 
+	\end{tabular} 
+}
+\end{table}
+\includegraphics[scale=0.3]{"bar1_3_1"}
+
+\includegraphics[scale=0.3]{"bar1_3_2"}
+
+\includegraphics[scale=0.3]{"bar1_3_3"}
+\pagebreak
+
+The autocorrelation between $u(i)$ and $u(i+1)$ is very low and they are 
+not(very less) dependent on each other as we see from the $u(i)$ vs $u(i+1)$ plots.\\
+
+$$a = 16807, m = 2147483647, x_0 = 522329230, n = 1000,10000,100000$$
+$$x = [0:1],\ y = [0:1]$$
+\includegraphics[scale=0.45]{"dataplot1a"}
+\pagebreak
+
+\includegraphics[scale=0.45]{"dataplot1b"}\pagebreak
+
+\includegraphics[scale=0.45]{"dataplot1c"}
+\pagebreak
+
+Now zooming into [0:0.001] for $u(i)$. In the zoomed version also they are not related and uniformly distributed. Low autocorrelation. As we have divided the area by 1000 times. we see only 1 point for n=1000 and around 10 for n=10000 and 100 for n=100000, which is as expected (for random numbers).
+$$a = 16807, m = 2147483647, x_0 = 522329230, n = 1000,10000,100000$$
+$$x = [0:0.001],\ y = [0:1]$$
+\includegraphics[scale=0.45]{"dataplot1d"}
+\pagebreak
+
+\includegraphics[scale=0.45]{"dataplot1e"}\pagebreak
+
+\includegraphics[scale=0.45]{"dataplot1f"}
+\pagebreak
+
+\section{Question 2}
+\noindent{Code for C++}
+
+\begin{lstlisting}
+#include <iostream>
+#include <iomanip>
+#include "lab2.h"
+
+using namespace std;
+
+void generator(long A[], long m, int range, int n) {
+long *Density, x;
+long double u,v;
+long double auto_cor[5]= {0,0,0,0,0}, mean = 0, variance = 0, absolute_var = 0;
+Density = new long[range];
+
+for(int i=0; i<range; ++i) {
+Density[i] = 0;
+}
+
+x = A[16];
+
+for(int i=0;i<n;++i) {
+for(int j=0;j<16;++j) {
+A[j] = A[j+1];
+}
+A[16] = x;
+u = (long double)x/(long double)m;
+x = (A[0] + A[12]) % m;
+Density[(int)(u*range)]++ ;
+v = u;
+u = (long double)x/(long double)m;
+cout<<fixed<<setprecision(10)<<v<<" "<<u<<"\n";
+mean = ((mean * i) + u)/(i+1);
+variance = ((variance * i) + ((u - mean) * (u - mean)))/(i+1);
+absolute_var = ((absolute_var*i) + ((u - 0.5) * (u - 0.5))) / (i+1);
+for(int k=0;k<5;++k) {
+auto_cor[k] = auto_cor[k] + (long double)(((long double)x/(long double)m) - mean)* (((long double)A[16-k]/(long double)m) - mean);
+}
+}
+
+cout<<"\n\nProbability in each interval\n";
+
+u = (long double)1/(long double)range;
+for(int i=0;i<range;++i) {
+cout<<setprecision(2)<<(u*i)<<"-"<<(u*(i+1))<<" "<<setprecision(5)<<(long double)Density[i]/n<<"\n";
+}
+
+cout<<"\n\n";
+cout<<"Mean = "<<setprecision(15)<<mean<<"\n";
+cout<<"Variance (with changing mean) = "<<variance<<"\n";
+cout<<"Variance (with mean = 0.5) = "<<absolute_var<<"\n";
+for(int i = 0; i <5; ++i) {
+cout<<"Autocorrelation (with lag = "<<i+1<<") = "<<auto_cor[i]/(variance * n)<<"\n";
+}
+cout<<"\n\n\n";
+
+}
+
+
+int main() {
+long A[17], m = 2147483648, n = 1000;
+
+//We can take 1000 and 10000 values from the 100000 generated ones.
+for(int j=0; j<3; ++j, n*=10) {
+A[0] = 522329230;
+for(int i=1; i<17; ++i) {
+A[i] = base_generator(16807, A[i-1], 2147483647/16807, 2147483647%16807, 2147483647);
+} 
+generator(A, m, 20 ,n);
+}
+}
+\end{lstlisting}
+
+The theoretical value for Uniform Distribution [0:1] \\
+Mean = 0.500\\
+Variance = 0.0833\\
+Autocorrelation (with lag = 1) = 0.000\\
+Autocorrelation (with lag = 2) = 0.000\\
+Autocorrelation (with lag = 3) = 0.000\\
+Autocorrelation (with lag = 4) = 0.000\\
+Autocorrelation (with lag = 5) = 0.000\\
+
+The values we get are:
+
+$n = 1000$\\
+Mean = 0.503160163763445\\
+Variance (with changing mean) = 0.085404971138431\\
+Variance (with mean = 0.5) = 0.085949722276135\\
+Autocorrelation (with lag = 1) = -0.095406440772602\\
+Autocorrelation (with lag = 2) = -0.018487854412370\\
+Autocorrelation (with lag = 3) = -0.019750444395744\\
+Autocorrelation (with lag = 4) = -0.014113850867633\\
+Autocorrelation (with lag = 5) = 0.020604150580792\\
+\\
+$n = 10000$\\
+Mean = 0.501647835427616\\
+Variance (with changing mean) = 0.083823841706965\\
+Variance (with mean = 0.5) = 0.083899149061973\\
+Autocorrelation (with lag = 1) = -0.012280387122665\\
+Autocorrelation (with lag = 2) = -0.005113407582166\\
+Autocorrelation (with lag = 3) = 0.012370106172613\\
+Autocorrelation (with lag = 4) = 0.003169611338368\\
+Autocorrelation (with lag = 5) = 0.002564686227511\\
+\\
+$n = 100000$\\
+Mean = 0.502687283740165\\
+Variance (with changing mean) = 0.083380568166621\\
+Variance (with mean = 0.5) = 0.083396966929464\\
+Autocorrelation (with lag = 1) = -0.002872745450105\\
+Autocorrelation (with lag = 2) = 0.000516204804362\\
+Autocorrelation (with lag = 3) = 0.003310354488332\\
+Autocorrelation (with lag = 4) = 0.000596430719589\\
+Autocorrelation (with lag = 5) = 0.006116675018030\\
+\\
+\pagebreak
+
+Plots between $u(i)$ and $u(i+1)$.\\
+$$n = 1000$$
+\includegraphics[scale=0.45]{"dataplot2a"}
+\pagebreak
+
+$$n = 10000$$
+\includegraphics[scale=0.45]{"dataplot2b"}
+\pagebreak
+
+$$n = 100000$$
+\includegraphics[scale=0.45]{"dataplot2c"}
+\pagebreak
+
+
+Probability distribution.\\
+$$n = 1000$$
+\includegraphics[scale=0.3]{"bar2_1"}
+
+$$n = 10000$$
+\includegraphics[scale=0.3]{"bar2_2"}
+
+$$n = 100000$$
+\includegraphics[scale=0.3]{"bar2_3"}
+\pagebreak
+
+\end{document}

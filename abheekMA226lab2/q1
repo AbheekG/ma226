@@ -1,0 +1,405 @@
+$$a = 16807, m = 2147483647, x_0 = 522329230, n = 1000$$
+
+\begin{center} \begin{tabular}{||c | c||}  \hline
+Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 46\\
+ \hline 
+0.05-0.1 & 51\\
+ \hline 
+0.1-0.15 & 51\\
+ \hline 
+0.15-0.2 & 46\\
+ \hline 
+0.2-0.25 & 46\\
+ \hline 
+0.25-0.3 & 50\\
+ \hline 
+0.3-0.35 & 39\\
+ \hline 
+0.35-0.4 & 54\\
+ \hline 
+0.4-0.45 & 58\\
+ \hline 
+0.45-0.5 & 59\\
+ \hline 
+0.5-0.55 & 64\\
+ \hline 
+0.55-0.6 & 47\\
+ \hline 
+0.6-0.65 & 39\\
+ \hline 
+0.65-0.7 & 71\\
+ \hline 
+0.7-0.75 & 52\\
+ \hline 
+0.75-0.8 & 42\\
+ \hline 
+0.8-0.85 & 55\\
+ \hline 
+0.85-0.9 & 41\\
+ \hline 
+0.9-0.95 & 47\\
+ \hline 
+0.95-1 & 42\\
+ \hline 
+\end{tabular} 
+ \end{center}
+$$a = 16807, m = 2147483647, x_0 = 1043618065, n = 10000$$
+
+\begin{center} \begin{tabular}{||c | c||}  \hline
+Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 487\\
+ \hline 
+0.05-0.1 & 507\\
+ \hline 
+0.1-0.15 & 499\\
+ \hline 
+0.15-0.2 & 508\\
+ \hline 
+0.2-0.25 & 508\\
+ \hline 
+0.25-0.3 & 490\\
+ \hline 
+0.3-0.35 & 470\\
+ \hline 
+0.35-0.4 & 488\\
+ \hline 
+0.4-0.45 & 491\\
+ \hline 
+0.45-0.5 & 509\\
+ \hline 
+0.5-0.55 & 537\\
+ \hline 
+0.55-0.6 & 512\\
+ \hline 
+0.6-0.65 & 493\\
+ \hline 
+0.65-0.7 & 496\\
+ \hline 
+0.7-0.75 & 471\\
+ \hline 
+0.75-0.8 & 492\\
+ \hline 
+0.8-0.85 & 510\\
+ \hline 
+0.85-0.9 & 516\\
+ \hline 
+0.9-0.95 & 479\\
+ \hline 
+0.95-1 & 537\\
+ \hline 
+\end{tabular} 
+ \end{center}
+$$a = 16807, m = 2147483647, x_0 = 46831694, n = 100000$$
+
+\begin{center} \begin{tabular}{||c | c||}  \hline
+Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 4940\\
+ \hline 
+0.05-0.1 & 5107\\
+ \hline 
+0.1-0.15 & 4999\\
+ \hline 
+0.15-0.2 & 5017\\
+ \hline 
+0.2-0.25 & 4934\\
+ \hline 
+0.25-0.3 & 4929\\
+ \hline 
+0.3-0.35 & 4959\\
+ \hline 
+0.35-0.4 & 4919\\
+ \hline 
+0.4-0.45 & 4938\\
+ \hline 
+0.45-0.5 & 5074\\
+ \hline 
+0.5-0.55 & 5152\\
+ \hline 
+0.55-0.6 & 5133\\
+ \hline 
+0.6-0.65 & 5024\\
+ \hline 
+0.65-0.7 & 4907\\
+ \hline 
+0.7-0.75 & 4976\\
+ \hline 
+0.75-0.8 & 4979\\
+ \hline 
+0.8-0.85 & 5040\\
+ \hline 
+0.85-0.9 & 5078\\
+ \hline 
+0.9-0.95 & 4948\\
+ \hline 
+0.95-1 & 4947\\
+ \hline 
+\end{tabular} 
+ \end{center}
+$$a = 40692, m = 2147483399, x_0 = 2121278613, n = 1000$$
+
+\begin{center} \begin{tabular}{||c | c||}  \hline
+Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 50\\
+ \hline 
+0.05-0.1 & 53\\
+ \hline 
+0.1-0.15 & 53\\
+ \hline 
+0.15-0.2 & 50\\
+ \hline 
+0.2-0.25 & 58\\
+ \hline 
+0.25-0.3 & 39\\
+ \hline 
+0.3-0.35 & 44\\
+ \hline 
+0.35-0.4 & 41\\
+ \hline 
+0.4-0.45 & 57\\
+ \hline 
+0.45-0.5 & 41\\
+ \hline 
+0.5-0.55 & 46\\
+ \hline 
+0.55-0.6 & 59\\
+ \hline 
+0.6-0.65 & 50\\
+ \hline 
+0.65-0.7 & 58\\
+ \hline 
+0.7-0.75 & 52\\
+ \hline 
+0.75-0.8 & 53\\
+ \hline 
+0.8-0.85 & 54\\
+ \hline 
+0.85-0.9 & 46\\
+ \hline 
+0.9-0.95 & 47\\
+ \hline 
+0.95-1 & 49\\
+ \hline 
+\end{tabular} 
+ \end{center}
+$$a = 40692, m = 2147483399, x_0 = 2006618587, n = 10000$$
+
+\begin{center} \begin{tabular}{||c | c||}  \hline
+Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 490\\
+ \hline 
+0.05-0.1 & 525\\
+ \hline 
+0.1-0.15 & 485\\
+ \hline 
+0.15-0.2 & 493\\
+ \hline 
+0.2-0.25 & 509\\
+ \hline 
+0.25-0.3 & 517\\
+ \hline 
+0.3-0.35 & 455\\
+ \hline 
+0.35-0.4 & 540\\
+ \hline 
+0.4-0.45 & 509\\
+ \hline 
+0.45-0.5 & 457\\
+ \hline 
+0.5-0.55 & 507\\
+ \hline 
+0.55-0.6 & 540\\
+ \hline 
+0.6-0.65 & 473\\
+ \hline 
+0.65-0.7 & 519\\
+ \hline 
+0.7-0.75 & 509\\
+ \hline 
+0.75-0.8 & 482\\
+ \hline 
+0.8-0.85 & 505\\
+ \hline 
+0.85-0.9 & 497\\
+ \hline 
+0.9-0.95 & 474\\
+ \hline 
+0.95-1 & 514\\
+ \hline 
+\end{tabular} 
+ \end{center}
+$$a = 40692, m = 2147483399, x_0 = 712556314, n = 100000$$
+
+\begin{center} \begin{tabular}{||c | c||}  \hline
+Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 5009\\
+ \hline 
+0.05-0.1 & 4964\\
+ \hline 
+0.1-0.15 & 4984\\
+ \hline 
+0.15-0.2 & 5114\\
+ \hline 
+0.2-0.25 & 4977\\
+ \hline 
+0.25-0.3 & 5031\\
+ \hline 
+0.3-0.35 & 4948\\
+ \hline 
+0.35-0.4 & 5109\\
+ \hline 
+0.4-0.45 & 4958\\
+ \hline 
+0.45-0.5 & 5054\\
+ \hline 
+0.5-0.55 & 5031\\
+ \hline 
+0.55-0.6 & 4987\\
+ \hline 
+0.6-0.65 & 4912\\
+ \hline 
+0.65-0.7 & 4995\\
+ \hline 
+0.7-0.75 & 5015\\
+ \hline 
+0.75-0.8 & 4981\\
+ \hline 
+0.8-0.85 & 4965\\
+ \hline 
+0.85-0.9 & 4963\\
+ \hline 
+0.9-0.95 & 4968\\
+ \hline 
+0.95-1 & 5035\\
+ \hline 
+\end{tabular} 
+ \end{center}
+$$a = 40014, m = 2147483563, x_0 = 1487191379, n = 1000$$
+
+\begin{center} \begin{tabular}{||c | c||}  \hline
+Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 57\\
+ \hline 
+0.05-0.1 & 53\\
+ \hline 
+0.1-0.15 & 50\\
+ \hline 
+0.15-0.2 & 52\\
+ \hline 
+0.2-0.25 & 47\\
+ \hline 
+0.25-0.3 & 49\\
+ \hline 
+0.3-0.35 & 52\\
+ \hline 
+0.35-0.4 & 44\\
+ \hline 
+0.4-0.45 & 45\\
+ \hline 
+0.45-0.5 & 48\\
+ \hline 
+0.5-0.55 & 38\\
+ \hline 
+0.55-0.6 & 50\\
+ \hline 
+0.6-0.65 & 63\\
+ \hline 
+0.65-0.7 & 53\\
+ \hline 
+0.7-0.75 & 49\\
+ \hline 
+0.75-0.8 & 46\\
+ \hline 
+0.8-0.85 & 50\\
+ \hline 
+0.85-0.9 & 60\\
+ \hline 
+0.9-0.95 & 43\\
+ \hline 
+0.95-1 & 51\\
+ \hline 
+\end{tabular} 
+ \end{center}
+$$a = 40014, m = 2147483563, x_0 = 1919456777, n = 10000$$
+
+\begin{center} \begin{tabular}{||c | c||}  \hline
+Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 502\\
+ \hline 
+0.05-0.1 & 495\\
+ \hline 
+0.1-0.15 & 492\\
+ \hline 
+0.15-0.2 & 463\\
+ \hline 
+0.2-0.25 & 526\\
+ \hline 
+0.25-0.3 & 533\\
+ \hline 
+0.3-0.35 & 524\\
+ \hline 
+0.35-0.4 & 488\\
+ \hline 
+0.4-0.45 & 468\\
+ \hline 
+0.45-0.5 & 517\\
+ \hline 
+0.5-0.55 & 499\\
+ \hline 
+0.55-0.6 & 503\\
+ \hline 
+0.6-0.65 & 478\\
+ \hline 
+0.65-0.7 & 484\\
+ \hline 
+0.7-0.75 & 521\\
+ \hline 
+0.75-0.8 & 501\\
+ \hline 
+0.8-0.85 & 496\\
+ \hline 
+0.85-0.9 & 551\\
+ \hline 
+0.9-0.95 & 488\\
+ \hline 
+0.95-1 & 471\\
+ \hline 
+\end{tabular} 
+ \end{center}
+$$a = 40014, m = 2147483563, x_0 = 1020104619, n = 100000$$
+
+\begin{center} \begin{tabular}{||c | c||}  \hline
+Range & Frequency \\ [0.5ex] \hline \hline0-0.05 & 5103\\
+ \hline 
+0.05-0.1 & 4947\\
+ \hline 
+0.1-0.15 & 5142\\
+ \hline 
+0.15-0.2 & 4948\\
+ \hline 
+0.2-0.25 & 5006\\
+ \hline 
+0.25-0.3 & 5014\\
+ \hline 
+0.3-0.35 & 5088\\
+ \hline 
+0.35-0.4 & 5081\\
+ \hline 
+0.4-0.45 & 5044\\
+ \hline 
+0.45-0.5 & 4798\\
+ \hline 
+0.5-0.55 & 4994\\
+ \hline 
+0.55-0.6 & 5007\\
+ \hline 
+0.6-0.65 & 4968\\
+ \hline 
+0.65-0.7 & 4971\\
+ \hline 
+0.7-0.75 & 4983\\
+ \hline 
+0.75-0.8 & 4967\\
+ \hline 
+0.8-0.85 & 5036\\
+ \hline 
+0.85-0.9 & 4990\\
+ \hline 
+0.9-0.95 & 4905\\
+ \hline 
+0.95-1 & 5008\\
+ \hline 
+\end{tabular} 
+ \end{center}
