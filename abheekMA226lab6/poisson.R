@@ -33,10 +33,10 @@ hist(x, main="Poisson Distribution, mean = 2, 50 values", xlab="Range of random 
 dev.copy(png,"plot2a.png");
 dev.off ();
 
-plot(1:10, pms, col='black', cex=1, main="Poisson Distribution, mean = 2, 50 values", xlab="Range of random numbers", ylab="Probability Mass Function")
+plot(1:10, pms, col='black', cex=1, main="Poisson Distribution, mean = 2, Probability Mass Function", xlab="Range of random numbers", ylab="Probability Mass Function")
 dev.copy(png,"plot2b.png");
 dev.off ();
 
-plot(1:10, cdf, col='black', cex=1, main="Poisson Distribution, mean = 2, 50 values", xlab="Range of random numbers", ylab="Cumulative distribution Function")
+plot(1:10, cdf, col='black', cex=1, main="Poisson Distribution, mean = 2, Cumulative Distribution Function", xlab="Range of random numbers", ylab="Cumulative distribution Function")
 dev.copy(png,"plot2c.png");
 dev.off ();
