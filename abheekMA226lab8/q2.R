@@ -9,7 +9,8 @@ while (m<=100000) {
 	I <- mean(Y)
 	std_dev <- sd(Y)
 	cat("m = ", m,"\n")
-	cat("Expected value = ", I, "\n")
+	cat("Expected value, I = ", I, "\n")
+	cat("Variance = ", std_dev^2, "\n")
 	cat("95% confidence interval = (", I - z*std_dev/(m^(1/2)), ", ",I + z*std_dev/(m^(1/2)), ")\n")
 	cat("Variance reduction = ", 100*(1 - var(Y)/var(Y1)) ,"%\n\n")
 	m <- m*10

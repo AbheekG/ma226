@@ -7,7 +7,8 @@ while (m<=100000) {
 	I <- mean(Y)
 	SD <- sd(Y)
 	cat("m = ", m,"\n")
-	cat("Expected value = ", I, "\n")
+	cat("Expected value, I = ", I, "\n")
+	cat("Variance = ", SD^2, "\n")
 	cat("95% confidence interval = (", I - z*SD/(m^(1/2)), ", ",I + z*SD/(m^(1/2)), ")\n\n")
 	m <- m*10
 }
