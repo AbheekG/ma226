@@ -141,6 +141,18 @@ for (i in 1:n) {
 	}
 }
 
+z <- 1.96
+m1 <- mean(Y1)
+m2 <- mean(Y2)
+v1 <- var(Y1)
+v2 <- var(Y2)
+
+cat("\nThe expected value of the Distributon is (",m1, ",", m2,")")
+cat("\nThe Variance of the Distributon is (",v1, ",", v2,")")
+cat("\nThe Covariance of the Bivariate Distributon is ",cov(Y1,Y2))
+cat("\n95% confidence interval, Y1 = (", m1 - z*((v1/n)^(1/2)), ", ",m1 + z*((v1/n)^(1/2)), "), Y2 = (", m2 - z*((v2/n)^(1/2)), ", ",m2 + z*((v2/n)^(1/2)), ")\n")
+cat("\n")
+
 #TODO print images
 #TODO end for loop
 

@@ -6,7 +6,7 @@
 \usepackage{graphicx}
 
 \begin{document}
-	\title{\textbf{Assignment-7}}
+	\title{\textbf{Assignment-9}}
 	\author{Abheek Ghosh \\ 
 		140123047 }
 	
@@ -18,173 +18,136 @@
 \noindent{Code for R}
 
 \begin{lstlisting}
-library(MASS)
+m <- 10	# No. of paths
+n <- 5000	# No of time points
+t <- 5
+dt <- t/n
 
-n <- 1000
-a <- c(-0.25, 0, 0.25)
+w2 <- vector(,m)
+w5 <- vector(,m)
+T <- seq(0, t, dt)
+pal <- palette()
 
-Z <- matrix( rnorm(2 * n), nrow=n, ncol=2)
-
-for (i in 1:3) {
-
-	Sigma <- matrix( c(1, 2*a[i], 2*a[i], 4), nrow=2, ncol=2)
-	Mu <- c(5,8)
-	A <- chol(Sigma)
-	X <- Z %*% A
-	X[,1] = X[,1] + Mu[1]
-	X[,2] = X[,2] + Mu[2]
-
-cat("For, a = ", a[i], "\\\\\n")
-cat("Mean, X1 = ", mean(X[,1]), ", X2 = ", mean(X[,2]), "\\\\\n")
-cat("Variance, X1 = ", var(X[,1]), ", X2 = ", var(X[,2]), "\\\\\n")
-cat("Covariance = ", cov(X[,1], X[,2]), "\\\\\\\\\n")
-
-plot(X[,1],X[,2], main="Bivariate Normal Dist.(1000 values)", xlab="X1", ylab="X2")
-z.kde=kde2d(X[,1],X[,2])
-contour(z.kde,add=TRUE) 
-image(z.kde); 
-contour(z.kde, add = T)
-
-	if(i == 1)
-		dev.copy(png, "plot1_1.png")
-	if(i == 2)
-		dev.copy(png, "plot1_2.png")
-	if(i == 3)
-		dev.copy(png, "plot1_3.png")
-	dev.off ()
-
-plot(ecdf(X[,1]), main="Cumulative Distribution Function of X1")
-par(new=TRUE)
-plot(ecdf(rnorm(n, mean = 5, sd = 1)), col='red', axes=FALSE, main="")
-	
-	if(i == 1)
-		dev.copy(png, "plot2_1.png")
-	if(i == 2)
-		dev.copy(png, "plot2_2.png")
-	if(i == 3)
-		dev.copy(png, "plot2_3.png")
-	dev.off ()
-
-plot(ecdf(X[,2]), main="Cumulative Distribution Function of X2")
-par(new=TRUE)
-plot(ecdf(rnorm(n, mean = 8, sd = 2)), col='red', axes=FALSE, main="")
-	
-	if(i == 1)
-		dev.copy(png, "plot2_4.png")
-	if(i == 2)
-		dev.copy(png, "plot2_5.png")
-	if(i == 3)
-		dev.copy(png, "plot2_6.png")
-	dev.off ()
+for (i in 1:m) {
+	Z <- rnorm(n)
+	W <- cumsum(c(0, dt^(1/2)*Z))
+	w2[i] <- W[n*(2/t) + 1]
+	w5[i] <- W[n + 1]
+	if(i == 1) {
+		plot(T, W, ylim=c(-5, 5), col=pal[i %% 8 + 1], cex=0.0001, main="Standard Brownian Motion", xlab="Time", ylab="W", type="l")
+	} else {
+		lines(T, W, col=pal[i %% 8 + 1], cex=0.0001)
+	}
 }
+
+dev.copy(png,"plot1.png");
+dev.off ();
+
+cat(" E[W(2)] = ",mean(w2),"\n")
+cat(" E[W(5)] = ",mean(w5),"\n")
+
+rm(list = ls())
 \end{lstlisting}
+Standard Brownian Motion \\
+t = 5\\\\
+ E[W(2)] =  -0.3271348 \\
+ E[W(5)] =  0.2187029 \\
 
-For, a =  -0.25 \\
-Mean, X1 =  5.038496 , X2 =  7.91687 \\
-Variance, X1 =  1.004863 , X2 =  4.058624 \\
-Covariance =  -0.494869 \\\\
-For, a =  0 \\
-Mean, X1 =  5.038496 , X2 =  7.934023 \\
-Variance, X1 =  1.004863 , X2 =  4.069302 \\
-Covariance =  0.007810284 \\\\
-For, a =  0.25 \\
-Mean, X1 =  5.038496 , X2 =  7.955365 \\
-Variance, X1 =  1.004863 , X2 =  4.073748 \\
-Covariance =  0.5099936 \\\\
-
-\includegraphics{"plot1_1"}
-\pagebreak
-
-\includegraphics{"plot1_2"}
-\pagebreak
-
-\includegraphics{"plot1_3"}
+\includegraphics{"plot1"}
 \pagebreak
 
 \section{Question 2}
 
-CDF Plots of X1 and X2 for all values of a (-0.25,0,0.25)\\
-\includegraphics{"plot2_1"}
-\pagebreak
+\noindent{Code for R}
 
-\includegraphics{"plot2_2"}
-\pagebreak
+\begin{lstlisting}
+m <- 10	# No. of paths
+n <- 5000	# No of time points
+t <- 5
+dt <- t/n
+mu <- 0.06
+sigma <- 0.3
+w0 <- 5
 
-\includegraphics{"plot2_3"}
-\pagebreak
+w2 <- vector(,m)
+w5 <- vector(,m)
+T <- seq(0, t, dt)
+pal <- palette()
 
-\includegraphics{"plot2_4"}
-\pagebreak
+for (i in 1:m) {
+	Z <- rnorm(n)
+	X <- cumsum(c(w0, mu*dt + sigma*dt^(1/2)*Z))
+	w2[i] <- X[n*(2/t) + 1]
+	w5[i] <- X[n + 1]
+	if(i == 1) {
+		plot(T, X, ylim=c(3.5, 7), col=pal[i %% 8 + 1], cex=0.0001, main="General Brownian Motion, mu = 0.06, sigma = 0.3", xlab="Time", ylab="X", type="l")
+	} else {
+		lines(T, X, col=pal[i %% 8 + 1], cex=0.0001)
+	}
+}
 
-\includegraphics{"plot2_5"}
-\pagebreak
+dev.copy(png,"plot2.png");
+dev.off ();
 
-\includegraphics{"plot2_6"}
-\pagebreak
+cat(" E[X(2)] = ",mean(w2),"\n")
+cat(" E[X(5)] = ",mean(w5),"\n")
 
+rm(list = ls())
+\end{lstlisting}
+
+General Brownian Motion \\
+mu = 0.06\\
+sigma = 0.3\\
+t = 5\\\\
+ E[X(2)] =  5.279188 \\
+ E[X(5)] =  5.369947 \\
+\includegraphics{"plot2"}
+\pagebreak
 
 \section{Question 3}
 
 \noindent{Code for R}
 
 \begin{lstlisting}
-library(MASS)
+m <- 10	# No. of paths
+n <- 5000	# No of time points
+t <- 5
+dt <- t/n
 
-n <- 1000
-sigma1 <- 1
-sigma2 <- 2
-rho <- c(-0.25, 0, 0.25)
-mu1 <- 5
-mu2 <- 8
+w2 <- vector(,m)
+w5 <- vector(,m)
+T <- seq(0, t, dt)
+pal <- palette()
+y0 <- 5
 
-z1 <- rnorm(n)
-z2 <- rnorm(n)
+Mu <- 0.0325 - 0.05*T[2:(n+1)]
+Sigma <- 0.012 + 0.0138*T[2:(n+1)] + 0.00125*(T[2:(n+1)]^2)
 
-for (i in 1:3) {
-	
-	x2 <- mu2 + sigma2 * z1
-	x1 <- (mu1 + rho[i]*(sigma1/sigma2)*(x2 - mu2) ) + ( sigma1	* (1 - rho[i]^2 )^(1/2) ) * z2
-
-cat("For, a = ", a[i], "\\\\\n")
-cat("Mean, X1 = ", mean(x1), ", X2 = ", mean(x2), "\\\\\n")
-cat("Variance, X1 = ", var(x1), ", X2 = ", var(x2), "\\\\\n")
-cat("Covariance = ", cov(x1, x2), "\\\\\\\\\n")
-
-plot(x1, x2, main="Bivariate Normal Dist.(1000 values)", xlab="X1", ylab="X2")
-z.kde=kde2d(x1, x2)
-contour(z.kde,add=TRUE) 
-image(z.kde); 
-contour(z.kde, add = T)
-
-	if(i == 1)
-		dev.copy(png, "plot3_1.png")
-	if(i == 2)
-		dev.copy(png, "plot3_2.png")
-	if(i == 3)
-		dev.copy(png, "plot3_3.png")
-	dev.off ()
+for (i in 1:m) {
+	Z <- rnorm(n)
+	Y <- cumsum(c(y0, Mu*dt + Sigma*dt^(1/2)*Z))
+	w2[i] <- Y[n*(2/t) + 1]
+	w5[i] <- Y[n + 1]
+	if(i == 1) {
+		plot(T, Y, ylim=c(4.3, 5.1), col=pal[i %% 8 + 1], cex=0.0001, main="Euler Approximation", xlab="Time", ylab="Y", type="l")
+	} else {
+		lines(T, Y, col=pal[i %% 8 + 1], cex=0.0001)
+	}
 }
+
+dev.copy(png,"plot3.png");
+dev.off ();
+
+cat(" E[Y(2)] = ",mean(w2),"\n")
+cat(" E[Y(5)] = ",mean(w5),"\n")
+
+rm(list = ls())
 \end{lstlisting}
-
-For, a =  -0.25 \\
-Mean, X1 =  5.02457 , X2 =  7.997897 \\
-Variance, X1 =  1.001522 , X2 =  3.933006 \\
-Covariance =  -0.5027314 \\\\
-For, a =  0 \\
-Mean, X1 =  5.025104 , X2 =  7.997897 \\
-Variance, X1 =  0.9997786 , X2 =  3.933006 \\
-Covariance =  -0.01146987 \\\\
-For, a =  0.25 \\
-Mean, X1 =  5.024044 , X2 =  7.997897 \\
-Variance, X1 =  0.9959693 , X2 =  3.933006 \\
-Covariance =  0.4805201 \\\\
-
-\includegraphics{"plot3_1"}
-\pagebreak
-
-\includegraphics{"plot3_2"}
-\pagebreak
-
-\includegraphics{"plot3_3"}
-\pagebreak
+Euler approximation \\
+t = 5 \\
+Mu = 0.0325 - 0.05*t\\
+Sigma = 0.012 + 0.0138*t + 0.00125*t\\\\
+ E[Y(2)] =  4.980067 \\
+ E[Y(5)] =  4.541004 \\
+\includegraphics{"plot3"}
 \end{document}

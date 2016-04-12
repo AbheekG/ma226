@@ -23,7 +23,7 @@ for (i in 1:m) {
 dev.copy(png,"plot1.png");
 dev.off ();
 
-cat(" E[W(2) = ",mean(w2),"\n")
-cat(" E[W(5) = ",mean(w5),"\n")
+cat(" E[W(2)] = ",mean(w2),"\n")
+cat(" E[W(5)] = ",mean(w5),"\n")
 
 rm(list = ls())
