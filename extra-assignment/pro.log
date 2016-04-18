@@ -1,0 +1,1893 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.10.6)  13 APR 2016 23:52
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**pro.tex
+(./pro.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count87
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
+\Gm@dimlist=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count103
+))
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+(./algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+ (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count104
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count105
+) (./algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count106
+\c@ALC@line=\count107
+\c@ALC@rem=\count108
+\c@ALC@depth=\count109
+\ALC@tlm=\skip48
+\algorithmicindent=\skip49
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (./program.sty
+\@gtempa=\dimen122
+\@gtempa=\dimen123
+\@gtempa=\dimen124
+\@gtempa=\dimen125
+\@gtempa=\dimen126
+\@gtempa=\dimen127
+\@gtempa=\dimen128
+\@gtempa=\dimen129
+\@gtempa=\dimen130
+\@gtempa=\dimen131
+\@gtempa=\dimen132
+\@gtempa=\dimen133
+\@gtempa=\dimen134
+\@gtempa=\dimen135
+\@gtempa=\dimen136
+\@gtempa=\dimen137
+\@gtempa=\dimen138
+\@gtempa=\dimen139
+\@gtempa=\dimen140
+\@gtempa=\dimen141
+\@gtempa=\dimen142
+\@gtempa=\dimen143
+\@gtempa=\dimen144
+\@gtempa=\dimen145
+\@gtempa=\dimen146
+\@gtempa=\dimen147
+\@gtempa=\dimen148
+\@gtempa=\dimen149
+\@gtempa=\dimen150
+\@gtempa=\dimen151
+\@gtempa=\dimen152
+\@gtempa=\dimen153
+\@gtempa=\dimen154
+\@gtempa=\dimen155
+\@gtempa=\dimen156
+\@gtempa=\dimen157
+\@gtempa=\dimen158
+\@gtempa=\dimen159
+\@gtempa=\dimen160
+\@gtempa=\dimen161
+\@gtempa=\dimen162
+\@gtempa=\dimen163
+\@gtempa=\dimen164
+\@gtempa=\dimen165
+\@gtempa=\dimen166
+\@gtempa=\dimen167
+\@gtempa=\dimen168
+\@gtempa=\dimen169
+\@gtempa=\dimen170
+\@gtempa=\dimen171
+\c@programline=\count110
+\old@nxttabmar=\count111
+\symeulerletters=\mathgroup6
+\powersetbox=\box30
+LaTeX Font Info:    Try loading font information for U+msa on input line 839.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 839.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+eur on input line 839.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueur.fd
+File: ueur.fd 2013/01/14 v3.01 Euler Roman
+))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count112
+\lst@gtempboxa=\box31
+\lst@token=\toks24
+\lst@length=\count113
+\lst@currlwidth=\dimen172
+\lst@column=\count114
+\lst@pos=\count115
+\lst@lostspace=\dimen173
+\lst@width=\dimen174
+\lst@newlines=\count116
+\lst@lineno=\count117
+\lst@maxwidth=\dimen175
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count118
+\lst@skipnumbers=\count119
+\lst@framebox=\box32
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip50
+\RaggedLeftLeftskip=\skip51
+\RaggedRightLeftskip=\skip52
+\CenteringRightskip=\skip53
+\RaggedLeftRightskip=\skip54
+\RaggedRightRightskip=\skip55
+\CenteringParfillskip=\skip56
+\RaggedLeftParfillskip=\skip57
+\RaggedRightParfillskip=\skip58
+\JustifyingParfillskip=\skip59
+\CenteringParindent=\skip60
+\RaggedLeftParindent=\skip61
+\RaggedRightParindent=\skip62
+\JustifyingParindent=\skip63
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
+\inpenc@prehook=\toks25
+\inpenc@posthook=\toks26
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+)) (./pro.aux)
+\openout1 = `pro.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count120
+\scratchdimen=\dimen176
+\scratchbox=\box33
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen177
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks28
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count126
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 19.
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--47
+
+ []
+
+
+Overfull \hbox (21.44267pt too wide) in paragraph at lines 47--51
+\OML/cmm/m/it/10.95 F\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@1\OT1/cmr/m/n/1
+0.95 ) = \OML/cmm/m/it/10.95 lim[]F\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\
+OML/cmm/m/it/10.95 n\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 lim[]P\OT1/cmr/m
+/n/10.95 (\OML/cmm/m/it/10.95 A[]\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 P\O
+T1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 \[]\OML/cmm/m/it/10.95 A[]\OT1/cmr/m/n/10
+.95 ) = \OML/cmm/m/it/10.95 P\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 \[]\OML/cm
+m/m/it/10.95 X[]\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@1\OML/cmm/m/it/10.95
+ ; \OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 n\OT1/cmr/m/n/10.95 ]) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 56--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--100
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 111.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 113.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 113.
+
+Overfull \hbox (41.65111pt too wide) in paragraph at lines 126--127
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[3]
+Overfull \hbox (21.9409pt too wide) in paragraph at lines 135--136
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (41.65111pt too wide) in paragraph at lines 136--137
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.9409pt too wide) in paragraph at lines 139--140
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+<weibull/Rplots-01.png, id=25, 1405.25pt x 1405.25pt>
+File: weibull/Rplots-01.png Graphic file (type png)
+
+<use weibull/Rplots-01.png>
+Package pdftex.def Info: weibull/Rplots-01.png used on input line 150.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<weibull/Rplots-02.png, id=26, 1405.25pt x 1405.25pt>
+File: weibull/Rplots-02.png Graphic file (type png)
+
+<use weibull/Rplots-02.png>
+Package pdftex.def Info: weibull/Rplots-02.png used on input line 152.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<weibull/Rplots-03.png, id=27, 1405.25pt x 1405.25pt>
+File: weibull/Rplots-03.png Graphic file (type png)
+
+<use weibull/Rplots-03.png>
+Package pdftex.def Info: weibull/Rplots-03.png used on input line 155.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<weibull/Rplots-04.png, id=28, 1405.25pt x 1405.25pt>
+File: weibull/Rplots-04.png Graphic file (type png)
+
+<use weibull/Rplots-04.png>
+Package pdftex.def Info: weibull/Rplots-04.png used on input line 157.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<weibull/Rplots-05.png, id=29, 1405.25pt x 1405.25pt>
+File: weibull/Rplots-05.png Graphic file (type png)
+
+<use weibull/Rplots-05.png>
+Package pdftex.def Info: weibull/Rplots-05.png used on input line 160.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<weibull/Rplots-06.png, id=30, 1405.25pt x 1405.25pt>
+File: weibull/Rplots-06.png Graphic file (type png)
+
+<use weibull/Rplots-06.png>
+Package pdftex.def Info: weibull/Rplots-06.png used on input line 162.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<weibull/Rplots-07.png, id=31, 1405.25pt x 1405.25pt>
+File: weibull/Rplots-07.png Graphic file (type png)
+
+<use weibull/Rplots-07.png>
+Package pdftex.def Info: weibull/Rplots-07.png used on input line 165.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<weibull/Rplots-08.png, id=32, 1405.25pt x 1405.25pt>
+File: weibull/Rplots-08.png Graphic file (type png)
+
+<use weibull/Rplots-08.png>
+Package pdftex.def Info: weibull/Rplots-08.png used on input line 167.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<weibull/Rplots-09.png, id=33, 1405.25pt x 1405.25pt>
+File: weibull/Rplots-09.png Graphic file (type png)
+
+<use weibull/Rplots-09.png>
+Package pdftex.def Info: weibull/Rplots-09.png used on input line 170.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<weibull/Rplots-10.png, id=34, 1405.25pt x 1405.25pt>
+File: weibull/Rplots-10.png Graphic file (type png)
+
+<use weibull/Rplots-10.png>
+Package pdftex.def Info: weibull/Rplots-10.png used on input line 172.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--173
+
+ []
+
+[4] [5 <./weibull/Rplots-01.png>] [6 <./weibull/Rplots-02.png>] [7 <./weibull/R
+plots-03.png>] [8 <./weibull/Rplots-04.png>] [9 <./weibull/Rplots-05.png>]
+[10 <./weibull/Rplots-06.png>] [11 <./weibull/Rplots-07.png>] [12 <./weibull/Rp
+lots-08.png>] [13 <./weibull/Rplots-09.png>] [14 <./weibull/Rplots-10.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 174--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--220
+
+ []
+
+[15]
+Overfull \hbox (2.2307pt too wide) in paragraph at lines 238--239
+[][][][][][][][][][][][][][][] 
+ []
+
+<lnorm/lnorm-01.png, id=83, 1405.25pt x 1405.25pt>
+File: lnorm/lnorm-01.png Graphic file (type png)
+ <use lnorm/lnorm-01.png>
+Package pdftex.def Info: lnorm/lnorm-01.png used on input line 258.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<lnorm/lnorm-02.png, id=84, 1405.25pt x 1405.25pt>
+File: lnorm/lnorm-02.png Graphic file (type png)
+ <use lnorm/lnorm-02.png>
+Package pdftex.def Info: lnorm/lnorm-02.png used on input line 260.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<lnorm/lnorm-03.png, id=85, 1405.25pt x 1405.25pt>
+File: lnorm/lnorm-03.png Graphic file (type png)
+ <use lnorm/lnorm-03.png>
+Package pdftex.def Info: lnorm/lnorm-03.png used on input line 263.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<lnorm/lnorm-04.png, id=86, 1405.25pt x 1405.25pt>
+File: lnorm/lnorm-04.png Graphic file (type png)
+ <use lnorm/lnorm-04.png>
+Package pdftex.def Info: lnorm/lnorm-04.png used on input line 265.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<lnorm/lnorm-05.png, id=87, 1405.25pt x 1405.25pt>
+File: lnorm/lnorm-05.png Graphic file (type png)
+ <use lnorm/lnorm-05.png>
+Package pdftex.def Info: lnorm/lnorm-05.png used on input line 268.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<lnorm/lnorm-06.png, id=88, 1405.25pt x 1405.25pt>
+File: lnorm/lnorm-06.png Graphic file (type png)
+ <use lnorm/lnorm-06.png>
+Package pdftex.def Info: lnorm/lnorm-06.png used on input line 270.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<lnorm/lnorm-07.png, id=89, 1405.25pt x 1405.25pt>
+File: lnorm/lnorm-07.png Graphic file (type png)
+ <use lnorm/lnorm-07.png>
+Package pdftex.def Info: lnorm/lnorm-07.png used on input line 273.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<lnorm/lnorm-08.png, id=90, 1405.25pt x 1405.25pt>
+File: lnorm/lnorm-08.png Graphic file (type png)
+ <use lnorm/lnorm-08.png>
+Package pdftex.def Info: lnorm/lnorm-08.png used on input line 275.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<lnorm/lnorm-09.png, id=91, 1405.25pt x 1405.25pt>
+File: lnorm/lnorm-09.png Graphic file (type png)
+ <use lnorm/lnorm-09.png>
+Package pdftex.def Info: lnorm/lnorm-09.png used on input line 278.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+<lnorm/lnorm-10.png, id=92, 1405.25pt x 1405.25pt>
+File: lnorm/lnorm-10.png Graphic file (type png)
+ <use lnorm/lnorm-10.png>
+Package pdftex.def Info: lnorm/lnorm-10.png used on input line 280.
+(pdftex.def)             Requested size: 376.42575pt x 376.42064pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--281
+
+ []
+
+[16] [17 <./lnorm/lnorm-01.png>] [18 <./lnorm/lnorm-02.png>] [19 <./lnorm/lnorm
+-03.png>] [20 <./lnorm/lnorm-04.png>] [21 <./lnorm/lnorm-05.png>] [22 <./lnorm/
+lnorm-06.png>] [23 <./lnorm/lnorm-07.png>] [24 <./lnorm/lnorm-08.png>] [25 <./l
+norm/lnorm-09.png>] [26 <./lnorm/lnorm-10.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--321
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--321
+
+ []
+
+[27]
+Overfull \hbox (41.65111pt too wide) in paragraph at lines 328--329
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.51097pt too wide) in paragraph at lines 358--359
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (35.08104pt too wide) in paragraph at lines 364--365
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[28]
+Overfull \hbox (81.07152pt too wide) in paragraph at lines 372--373
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.51097pt too wide) in paragraph at lines 384--385
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (35.08104pt too wide) in paragraph at lines 390--391
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (41.65111pt too wide) in paragraph at lines 394--395
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.51097pt too wide) in paragraph at lines 403--404
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[29]
+Overfull \hbox (35.08104pt too wide) in paragraph at lines 409--410
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (41.65111pt too wide) in paragraph at lines 413--414
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.51097pt too wide) in paragraph at lines 422--423
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (35.08104pt too wide) in paragraph at lines 428--429
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (48.22118pt too wide) in paragraph at lines 437--438
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (35.08104pt too wide) in paragraph at lines 438--439
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (8.80077pt too wide) in paragraph at lines 440--441
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[30] [31]
+Overfull \hbox (35.08104pt too wide) in paragraph at lines 497--498
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+<q2/Question2_1a.png, id=154, 481.8pt x 481.8pt>
+File: q2/Question2_1a.png Graphic file (type png)
+ <use q2/Question2_1a.png>
+Package pdftex.def Info: q2/Question2_1a.png used on input line 538.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_1b.png, id=155, 481.8pt x 481.8pt>
+File: q2/Question2_1b.png Graphic file (type png)
+ <use q2/Question2_1b.png>
+Package pdftex.def Info: q2/Question2_1b.png used on input line 539.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--540
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--540
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--540
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--540
+
+ []
+
+[32] [33 <./q2/Question2_1a.png>] [34 <./q2/Question2_1b.png (PNG copy)>]
+<q2/Question2_2a.png, id=166, 481.8pt x 481.8pt>
+File: q2/Question2_2a.png Graphic file (type png)
+ <use q2/Question2_2a.png>
+Package pdftex.def Info: q2/Question2_2a.png used on input line 541.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_2b.png, id=167, 481.8pt x 481.8pt>
+File: q2/Question2_2b.png Graphic file (type png)
+ <use q2/Question2_2b.png>
+Package pdftex.def Info: q2/Question2_2b.png used on input line 542.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--543
+
+ []
+
+[35 <./q2/Question2_2a.png>] [36 <./q2/Question2_2b.png (PNG copy)>]
+<q2/Question2_3a.png, id=175, 481.8pt x 481.8pt>
+File: q2/Question2_3a.png Graphic file (type png)
+ <use q2/Question2_3a.png>
+Package pdftex.def Info: q2/Question2_3a.png used on input line 544.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_3b.png, id=176, 481.8pt x 481.8pt>
+File: q2/Question2_3b.png Graphic file (type png)
+ <use q2/Question2_3b.png>
+Package pdftex.def Info: q2/Question2_3b.png used on input line 545.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--546
+
+ []
+
+[37 <./q2/Question2_3a.png>] [38 <./q2/Question2_3b.png (PNG copy)>]
+<q2/Question2_4a.png, id=185, 481.8pt x 481.8pt>
+File: q2/Question2_4a.png Graphic file (type png)
+ <use q2/Question2_4a.png>
+Package pdftex.def Info: q2/Question2_4a.png used on input line 547.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_4b.png, id=186, 481.8pt x 481.8pt>
+File: q2/Question2_4b.png Graphic file (type png)
+ <use q2/Question2_4b.png>
+Package pdftex.def Info: q2/Question2_4b.png used on input line 548.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--549
+
+ []
+
+[39 <./q2/Question2_4a.png>] [40 <./q2/Question2_4b.png (PNG copy)>]
+<q2/Question2_5a.png, id=194, 481.8pt x 481.8pt>
+File: q2/Question2_5a.png Graphic file (type png)
+ <use q2/Question2_5a.png>
+Package pdftex.def Info: q2/Question2_5a.png used on input line 550.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_5b.png, id=195, 481.8pt x 481.8pt>
+File: q2/Question2_5b.png Graphic file (type png)
+ <use q2/Question2_5b.png>
+Package pdftex.def Info: q2/Question2_5b.png used on input line 551.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--552
+
+ []
+
+[41 <./q2/Question2_5a.png>] [42 <./q2/Question2_5b.png (PNG copy)>]
+<q2/Question2_6a.png, id=203, 481.8pt x 481.8pt>
+File: q2/Question2_6a.png Graphic file (type png)
+ <use q2/Question2_6a.png>
+Package pdftex.def Info: q2/Question2_6a.png used on input line 553.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_6b.png, id=204, 481.8pt x 481.8pt>
+File: q2/Question2_6b.png Graphic file (type png)
+ <use q2/Question2_6b.png>
+Package pdftex.def Info: q2/Question2_6b.png used on input line 554.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--555
+
+ []
+
+[43 <./q2/Question2_6a.png>] [44 <./q2/Question2_6b.png (PNG copy)>]
+<q2/Question2_7a.png, id=213, 481.8pt x 481.8pt>
+File: q2/Question2_7a.png Graphic file (type png)
+ <use q2/Question2_7a.png>
+Package pdftex.def Info: q2/Question2_7a.png used on input line 556.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_7b.png, id=214, 481.8pt x 481.8pt>
+File: q2/Question2_7b.png Graphic file (type png)
+ <use q2/Question2_7b.png>
+Package pdftex.def Info: q2/Question2_7b.png used on input line 557.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--558
+
+ []
+
+[45 <./q2/Question2_7a.png>] [46 <./q2/Question2_7b.png (PNG copy)>]
+<q2/Question2_8a.png, id=222, 481.8pt x 481.8pt>
+File: q2/Question2_8a.png Graphic file (type png)
+ <use q2/Question2_8a.png>
+Package pdftex.def Info: q2/Question2_8a.png used on input line 559.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_8b.png, id=223, 481.8pt x 481.8pt>
+File: q2/Question2_8b.png Graphic file (type png)
+ <use q2/Question2_8b.png>
+Package pdftex.def Info: q2/Question2_8b.png used on input line 560.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--561
+
+ []
+
+[47 <./q2/Question2_8a.png>] [48 <./q2/Question2_8b.png (PNG copy)>]
+<q2/Question2_9a.png, id=231, 481.8pt x 481.8pt>
+File: q2/Question2_9a.png Graphic file (type png)
+ <use q2/Question2_9a.png>
+Package pdftex.def Info: q2/Question2_9a.png used on input line 562.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_9b.png, id=232, 481.8pt x 481.8pt>
+File: q2/Question2_9b.png Graphic file (type png)
+ <use q2/Question2_9b.png>
+Package pdftex.def Info: q2/Question2_9b.png used on input line 563.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--564
+
+ []
+
+[49 <./q2/Question2_9a.png>] [50 <./q2/Question2_9b.png (PNG copy)>]
+<q2/Question2_10a.png, id=241, 481.8pt x 481.8pt>
+File: q2/Question2_10a.png Graphic file (type png)
+ <use q2/Question2_10a.png>
+Package pdftex.def Info: q2/Question2_10a.png used on input line 565.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_10b.png, id=242, 481.8pt x 481.8pt>
+File: q2/Question2_10b.png Graphic file (type png)
+ <use q2/Question2_10b.png>
+Package pdftex.def Info: q2/Question2_10b.png used on input line 566.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 565--567
+
+ []
+
+[51 <./q2/Question2_10a.png>] [52 <./q2/Question2_10b.png (PNG copy)>]
+<q2/Question2_11a.png, id=251, 481.8pt x 481.8pt>
+File: q2/Question2_11a.png Graphic file (type png)
+ <use q2/Question2_11a.png>
+Package pdftex.def Info: q2/Question2_11a.png used on input line 568.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_11b.png, id=252, 481.8pt x 481.8pt>
+File: q2/Question2_11b.png Graphic file (type png)
+ <use q2/Question2_11b.png>
+Package pdftex.def Info: q2/Question2_11b.png used on input line 569.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--570
+
+ []
+
+[53 <./q2/Question2_11a.png>] [54 <./q2/Question2_11b.png (PNG copy)>]
+<q2/Question2_12a.png, id=260, 481.8pt x 481.8pt>
+File: q2/Question2_12a.png Graphic file (type png)
+ <use q2/Question2_12a.png>
+Package pdftex.def Info: q2/Question2_12a.png used on input line 571.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_12b.png, id=261, 481.8pt x 481.8pt>
+File: q2/Question2_12b.png Graphic file (type png)
+ <use q2/Question2_12b.png>
+Package pdftex.def Info: q2/Question2_12b.png used on input line 572.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--573
+
+ []
+
+[55 <./q2/Question2_12a.png>] [56 <./q2/Question2_12b.png (PNG copy)>]
+<q2/Question2_13a.png, id=270, 481.8pt x 481.8pt>
+File: q2/Question2_13a.png Graphic file (type png)
+ <use q2/Question2_13a.png>
+Package pdftex.def Info: q2/Question2_13a.png used on input line 574.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_13b.png, id=271, 481.8pt x 481.8pt>
+File: q2/Question2_13b.png Graphic file (type png)
+ <use q2/Question2_13b.png>
+Package pdftex.def Info: q2/Question2_13b.png used on input line 575.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--576
+
+ []
+
+[57 <./q2/Question2_13a.png>] [58 <./q2/Question2_13b.png (PNG copy)>]
+<q2/Question2_14a.png, id=279, 481.8pt x 481.8pt>
+File: q2/Question2_14a.png Graphic file (type png)
+ <use q2/Question2_14a.png>
+Package pdftex.def Info: q2/Question2_14a.png used on input line 577.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_14b.png, id=280, 481.8pt x 481.8pt>
+File: q2/Question2_14b.png Graphic file (type png)
+ <use q2/Question2_14b.png>
+Package pdftex.def Info: q2/Question2_14b.png used on input line 578.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--579
+
+ []
+
+[59 <./q2/Question2_14a.png>] [60 <./q2/Question2_14b.png (PNG copy)>]
+<q2/Question2_15a.png, id=288, 481.8pt x 481.8pt>
+File: q2/Question2_15a.png Graphic file (type png)
+ <use q2/Question2_15a.png>
+Package pdftex.def Info: q2/Question2_15a.png used on input line 580.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_15b.png, id=289, 481.8pt x 481.8pt>
+File: q2/Question2_15b.png Graphic file (type png)
+ <use q2/Question2_15b.png>
+Package pdftex.def Info: q2/Question2_15b.png used on input line 581.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--582
+
+ []
+
+[61 <./q2/Question2_15a.png>] [62 <./q2/Question2_15b.png (PNG copy)>]
+<q2/Question2_16a.png, id=298, 481.8pt x 481.8pt>
+File: q2/Question2_16a.png Graphic file (type png)
+ <use q2/Question2_16a.png>
+Package pdftex.def Info: q2/Question2_16a.png used on input line 583.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_16b.png, id=299, 481.8pt x 481.8pt>
+File: q2/Question2_16b.png Graphic file (type png)
+ <use q2/Question2_16b.png>
+Package pdftex.def Info: q2/Question2_16b.png used on input line 584.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--585
+
+ []
+
+[63 <./q2/Question2_16a.png>] [64 <./q2/Question2_16b.png (PNG copy)>]
+<q2/Question2_17a.png, id=307, 481.8pt x 481.8pt>
+File: q2/Question2_17a.png Graphic file (type png)
+ <use q2/Question2_17a.png>
+Package pdftex.def Info: q2/Question2_17a.png used on input line 586.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_17b.png, id=308, 481.8pt x 481.8pt>
+File: q2/Question2_17b.png Graphic file (type png)
+ <use q2/Question2_17b.png>
+Package pdftex.def Info: q2/Question2_17b.png used on input line 587.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--588
+
+ []
+
+[65 <./q2/Question2_17a.png>] [66 <./q2/Question2_17b.png (PNG copy)>]
+<q2/Question2_18a.png, id=316, 481.8pt x 481.8pt>
+File: q2/Question2_18a.png Graphic file (type png)
+ <use q2/Question2_18a.png>
+Package pdftex.def Info: q2/Question2_18a.png used on input line 589.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_18b.png, id=317, 481.8pt x 481.8pt>
+File: q2/Question2_18b.png Graphic file (type png)
+ <use q2/Question2_18b.png>
+Package pdftex.def Info: q2/Question2_18b.png used on input line 590.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--591
+
+ []
+
+[67 <./q2/Question2_18a.png>] [68 <./q2/Question2_18b.png (PNG copy)>]
+<q2/Question2_19a.png, id=326, 481.8pt x 481.8pt>
+File: q2/Question2_19a.png Graphic file (type png)
+ <use q2/Question2_19a.png>
+Package pdftex.def Info: q2/Question2_19a.png used on input line 592.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_19b.png, id=327, 481.8pt x 481.8pt>
+File: q2/Question2_19b.png Graphic file (type png)
+ <use q2/Question2_19b.png>
+Package pdftex.def Info: q2/Question2_19b.png used on input line 593.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--594
+
+ []
+
+[69 <./q2/Question2_19a.png>] [70 <./q2/Question2_19b.png (PNG copy)>]
+<q2/Question2_20a.png, id=335, 481.8pt x 481.8pt>
+File: q2/Question2_20a.png Graphic file (type png)
+ <use q2/Question2_20a.png>
+Package pdftex.def Info: q2/Question2_20a.png used on input line 595.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_20b.png, id=336, 481.8pt x 481.8pt>
+File: q2/Question2_20b.png Graphic file (type png)
+ <use q2/Question2_20b.png>
+Package pdftex.def Info: q2/Question2_20b.png used on input line 596.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--597
+
+ []
+
+[71 <./q2/Question2_20a.png>] [72 <./q2/Question2_20b.png (PNG copy)>]
+<q2/Question2_21a.png, id=344, 481.8pt x 481.8pt>
+File: q2/Question2_21a.png Graphic file (type png)
+ <use q2/Question2_21a.png>
+Package pdftex.def Info: q2/Question2_21a.png used on input line 598.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_21b.png, id=345, 481.8pt x 481.8pt>
+File: q2/Question2_21b.png Graphic file (type png)
+ <use q2/Question2_21b.png>
+Package pdftex.def Info: q2/Question2_21b.png used on input line 599.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--600
+
+ []
+
+[73 <./q2/Question2_21a.png>] [74 <./q2/Question2_21b.png (PNG copy)>]
+<q2/Question2_22a.png, id=354, 481.8pt x 481.8pt>
+File: q2/Question2_22a.png Graphic file (type png)
+ <use q2/Question2_22a.png>
+Package pdftex.def Info: q2/Question2_22a.png used on input line 601.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_22b.png, id=355, 481.8pt x 481.8pt>
+File: q2/Question2_22b.png Graphic file (type png)
+ <use q2/Question2_22b.png>
+Package pdftex.def Info: q2/Question2_22b.png used on input line 602.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--603
+
+ []
+
+[75 <./q2/Question2_22a.png>] [76 <./q2/Question2_22b.png (PNG copy)>]
+<q2/Question2_23a.png, id=363, 481.8pt x 481.8pt>
+File: q2/Question2_23a.png Graphic file (type png)
+ <use q2/Question2_23a.png>
+Package pdftex.def Info: q2/Question2_23a.png used on input line 604.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_23b.png, id=364, 481.8pt x 481.8pt>
+File: q2/Question2_23b.png Graphic file (type png)
+ <use q2/Question2_23b.png>
+Package pdftex.def Info: q2/Question2_23b.png used on input line 605.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--606
+
+ []
+
+[77 <./q2/Question2_23a.png>] [78 <./q2/Question2_23b.png (PNG copy)>]
+<q2/Question2_24a.png, id=372, 481.8pt x 481.8pt>
+File: q2/Question2_24a.png Graphic file (type png)
+ <use q2/Question2_24a.png>
+Package pdftex.def Info: q2/Question2_24a.png used on input line 607.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_24b.png, id=373, 481.8pt x 481.8pt>
+File: q2/Question2_24b.png Graphic file (type png)
+ <use q2/Question2_24b.png>
+Package pdftex.def Info: q2/Question2_24b.png used on input line 608.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--609
+
+ []
+
+[79 <./q2/Question2_24a.png>] [80 <./q2/Question2_24b.png (PNG copy)>]
+<q2/Question2_25a.png, id=382, 481.8pt x 481.8pt>
+File: q2/Question2_25a.png Graphic file (type png)
+ <use q2/Question2_25a.png>
+Package pdftex.def Info: q2/Question2_25a.png used on input line 610.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_25b.png, id=383, 481.8pt x 481.8pt>
+File: q2/Question2_25b.png Graphic file (type png)
+ <use q2/Question2_25b.png>
+Package pdftex.def Info: q2/Question2_25b.png used on input line 611.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--612
+
+ []
+
+[81 <./q2/Question2_25a.png>] [82 <./q2/Question2_25b.png (PNG copy)>]
+<q2/Question2_26a.png, id=391, 481.8pt x 481.8pt>
+File: q2/Question2_26a.png Graphic file (type png)
+ <use q2/Question2_26a.png>
+Package pdftex.def Info: q2/Question2_26a.png used on input line 613.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_26b.png, id=392, 481.8pt x 481.8pt>
+File: q2/Question2_26b.png Graphic file (type png)
+ <use q2/Question2_26b.png>
+Package pdftex.def Info: q2/Question2_26b.png used on input line 614.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--615
+
+ []
+
+[83 <./q2/Question2_26a.png>] [84 <./q2/Question2_26b.png (PNG copy)>]
+<q2/Question2_27a.png, id=400, 481.8pt x 481.8pt>
+File: q2/Question2_27a.png Graphic file (type png)
+ <use q2/Question2_27a.png>
+Package pdftex.def Info: q2/Question2_27a.png used on input line 616.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_27b.png, id=401, 481.8pt x 481.8pt>
+File: q2/Question2_27b.png Graphic file (type png)
+ <use q2/Question2_27b.png>
+Package pdftex.def Info: q2/Question2_27b.png used on input line 617.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--618
+
+ []
+
+[85 <./q2/Question2_27a.png>] [86 <./q2/Question2_27b.png (PNG copy)>]
+<q2/Question2_28a.png, id=410, 481.8pt x 481.8pt>
+File: q2/Question2_28a.png Graphic file (type png)
+ <use q2/Question2_28a.png>
+Package pdftex.def Info: q2/Question2_28a.png used on input line 619.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_28b.png, id=411, 481.8pt x 481.8pt>
+File: q2/Question2_28b.png Graphic file (type png)
+ <use q2/Question2_28b.png>
+Package pdftex.def Info: q2/Question2_28b.png used on input line 620.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--621
+
+ []
+
+[87 <./q2/Question2_28a.png>] [88 <./q2/Question2_28b.png (PNG copy)>]
+<q2/Question2_29a.png, id=419, 481.8pt x 481.8pt>
+File: q2/Question2_29a.png Graphic file (type png)
+ <use q2/Question2_29a.png>
+Package pdftex.def Info: q2/Question2_29a.png used on input line 622.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_29b.png, id=420, 481.8pt x 481.8pt>
+File: q2/Question2_29b.png Graphic file (type png)
+ <use q2/Question2_29b.png>
+Package pdftex.def Info: q2/Question2_29b.png used on input line 623.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--624
+
+ []
+
+[89 <./q2/Question2_29a.png>] [90 <./q2/Question2_29b.png (PNG copy)>]
+<q2/Question2_30a.png, id=428, 481.8pt x 481.8pt>
+File: q2/Question2_30a.png Graphic file (type png)
+ <use q2/Question2_30a.png>
+Package pdftex.def Info: q2/Question2_30a.png used on input line 625.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_30b.png, id=429, 481.8pt x 481.8pt>
+File: q2/Question2_30b.png Graphic file (type png)
+ <use q2/Question2_30b.png>
+Package pdftex.def Info: q2/Question2_30b.png used on input line 626.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--627
+
+ []
+
+[91 <./q2/Question2_30a.png>] [92 <./q2/Question2_30b.png (PNG copy)>]
+<q2/Question2_31a.png, id=438, 481.8pt x 481.8pt>
+File: q2/Question2_31a.png Graphic file (type png)
+ <use q2/Question2_31a.png>
+Package pdftex.def Info: q2/Question2_31a.png used on input line 628.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_31b.png, id=439, 481.8pt x 481.8pt>
+File: q2/Question2_31b.png Graphic file (type png)
+ <use q2/Question2_31b.png>
+Package pdftex.def Info: q2/Question2_31b.png used on input line 629.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 628--630
+
+ []
+
+[93 <./q2/Question2_31a.png>] [94 <./q2/Question2_31b.png (PNG copy)>]
+<q2/Question2_32a.png, id=447, 481.8pt x 481.8pt>
+File: q2/Question2_32a.png Graphic file (type png)
+ <use q2/Question2_32a.png>
+Package pdftex.def Info: q2/Question2_32a.png used on input line 631.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+<q2/Question2_32b.png, id=448, 481.8pt x 481.8pt>
+File: q2/Question2_32b.png Graphic file (type png)
+ <use q2/Question2_32b.png>
+Package pdftex.def Info: q2/Question2_32b.png used on input line 632.
+(pdftex.def)             Requested size: 376.42575pt x 376.43472pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--633
+
+ []
+
+[95 <./q2/Question2_32a.png>] [96 <./q2/Question2_32b.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 639--640
+
+ []
+
+[97] (./pro.aux) ) 
+Here is how much of TeX's memory you used:
+ 5890 strings out of 495020
+ 80172 string characters out of 6181324
+ 167212 words of memory out of 5000000
+ 8922 multiletter control sequences out of 15000+600000
+ 13239 words of font info for 51 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 38i,8n,32p,312b,1523s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msbm10.pfb>
+Output written on pro.pdf (97 pages, 3260228 bytes).
+PDF statistics:
+ 506 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 421 words of extra memory for PDF output out of 10000 (max. 10000000)
+

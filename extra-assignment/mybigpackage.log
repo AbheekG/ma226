@@ -1,0 +1,1657 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=latex 2015.10.6)  30 JAN 2016 13:41
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./mybigpackage.sty
+(./mybigpackage.sty
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 2 languages loaded.
+
+LaTeX Warning: You have requested package `',
+               but the package provides `mybigpackage'.
+
+Package: mybigpackage 2012/1/22 v2.00
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count79
+\Gm@cntv=\count80
+\c@Gm@tempcnt=\count81
+\Gm@bindingoffset=\dimen102
+\Gm@wd@mp=\dimen103
+\Gm@odd@mp=\dimen104
+\Gm@even@mp=\dimen105
+\Gm@layoutwidth=\dimen106
+\Gm@layoutheight=\dimen107
+\Gm@layouthoffset=\dimen108
+\Gm@layoutvoffset=\dimen109
+\Gm@dimlist=\toks15
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \@classoptionslist 
+l.992 \ProcessOptionsKV[c]{Gm}
+                              %
+? 
+! Extra \endcsname.
+\@ifundefined ...dafter \ifx \csname #1\endcsname 
+                                                  \relax \expandafter \@firs...
+l.992 \ProcessOptionsKV[c]{Gm}
+                              %
+? 
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen110
+\captionmargin@=\dimen111
+\captionwidth=\dimen112
+\caption@tempdima=\dimen113
+\caption@indent=\dimen114
+\caption@parindent=\dimen115
+\caption@hangindent=\dimen116
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = undefined.
+\c@ContinuedFloat=\count82
+)
+
+! LaTeX Error: File `kpfonts.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.19 ^^M
+        
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 1596 strings out of 495021
+ 27003 string characters out of 6181350
+ 86350 words of memory out of 5000000
+ 4884 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 36i,0n,38p,248b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
+et \mathbf on input line 137.
+LaTeX Info: Redefining \bm on input line 203.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen117
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+LaTeX Info: Redefining \boldsymbol on input line 39.
+\pmbraise@=\dimen118
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count83
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count84
+\leftroot@=\count85
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count86
+\DOTSCASE@=\count87
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen119
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count88
+\c@MaxMatrixCols=\count89
+\dotsspace@=\muskip10
+\c@parentequation=\count90
+\dspbrk@lvl=\count91
+\tag@help=\toks17
+\row@=\count92
+\column@=\count93
+\maxfields@=\count94
+\andhelp@=\toks18
+\eqnshift@=\dimen120
+\alignsep@=\dimen121
+\tagshift@=\dimen122
+\tagwidth@=\dimen123
+\totwidth@=\dimen124
+\lineht@=\dimen125
+\@envbody=\toks19
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+
+! LaTeX Error: File `titlesec.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: Unknown option `sf' for package `titlesec'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \titlespacing
+                  {\section}{0pt}{3ex}{1ex}
+? 
+
+! LaTeX Error: Unknown option `bf' for package `titlesec'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \titlespacing
+                  {\section}{0pt}{3ex}{1ex}
+? 
+! Undefined control sequence.
+<recently read> \titlespacing 
+                              
+l.53 \titlespacing
+                  {\section}{0pt}{3ex}{1ex}
+? 
+! Undefined control sequence.
+l.53 \titlespacing{\section
+                           }{0pt}{3ex}{1ex}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \titlespacing{\section}{0
+                              pt}{3ex}{1ex}
+? 
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+! Undefined control sequence.
+l.54 \titlespacing
+                  {\subsection}{0pt}{2ex}{1ex}
+? 
+! Undefined control sequence.
+l.54 \titlespacing{\subsection
+                              }{0pt}{2ex}{1ex}
+? 
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+! Undefined control sequence.
+l.55 \titlespacing
+                  {\subsubsection}{0pt}{1ex}{0ex}
+? 
+! Undefined control sequence.
+l.55 \titlespacing{\subsubsection
+                                 }{0pt}{1ex}{0ex}
+? 
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+! Undefined control sequence.
+l.56 \titleformat
+                 {\subsubsection}{\bf}{}{0ex}{}
+? 
+! Undefined control sequence.
+l.56 \titleformat{\subsubsection
+                                }{\bf}{}{0ex}{}
+? 
+! Undefined control sequence.
+l.56 \titleformat{\subsubsection}{\bf
+                                     }{}{0ex}{}
+? 
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 53--57
+[]
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.112 \spacing{1.5}
+                   
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
+\MT@toks=\toks21
+\MT@count=\count95
+LaTeX Info: Redefining \textls on input line 766.
+\MT@outer@kern=\dimen128
+LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
+\MT@listname@count=\count96
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip55
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64    }
+         
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.64    }
+         
+? 
+
+Package microtype Warning: Could not parse font size `normalsize'
+(microtype)                in font set `basicmath' on input line 64.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `basicmath' on input line 64.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `basicmath' on input line 64.
+
+
+Package microtype Warning: Could not parse font size `large'
+(microtype)                in font set `basicmath' on input line 64.
+
+! Extra }, or forgotten \endgroup.
+\MT@clist@function ...,footnotesize,small,large}}}
+                                                  
+l.64    }
+         
+? 
+
+Package microtype Warning: Could not parse font size `ex'
+(microtype)                in font set `basicmath' on input line 64.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.64    }
+         
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64    }
+         
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.64    }
+         
+? 
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.64    }
+         
+? 
+
+Package microtype Warning: Could not parse font size `sp'
+(microtype)                in font set `basicmath' on input line 64.
+
+
+Package microtype Warning: Could not parse font size `kn'
+(microtype)                in font set `basicmath' on input line 64.
+
+
+Package microtype Warning: Could not parse font size `tr'
+(microtype)                in font set `basicmath' on input line 64.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71    }
+         
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.71    }
+         
+? 
+
+Package microtype Warning: Could not parse font size `normalsize'
+(microtype)                in font set `basictext' on input line 71.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `basictext' on input line 71.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `basictext' on input line 71.
+
+
+Package microtype Warning: Could not parse font size `large'
+(microtype)                in font set `basictext' on input line 71.
+
+! Extra }, or forgotten \endgroup.
+\MT@clist@function ...,footnotesize,small,large}}}
+                                                  
+l.71    }
+         
+? 
+
+Package microtype Warning: Could not parse font size `ex'
+(microtype)                in font set `basictext' on input line 71.
+
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.71    }
+         
+? 
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.71    }
+         
+? 
+
+Package microtype Warning: Could not parse font size `sp'
+(microtype)                in font set `basictext' on input line 71.
+
+
+Package microtype Warning: Could not parse font size `kn'
+(microtype)                in font set `basictext' on input line 71.
+
+
+Package microtype Warning: Could not parse font size `tr'
+(microtype)                in font set `basictext' on input line 71.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `footnotesize' on input line 81.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `footnotesize' on input line 81.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `footnotesize' on input line 81.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `footnotesize' on input line 81.
+
+
+Package microtype Warning: Could not parse font size `small'
+(microtype)                in font set `footnotesize' on input line 81.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `scriptsize' on input line 86.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `scriptsize' on input line 86.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `scriptsize' on input line 86.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `scriptsize' on input line 86.
+
+
+Package microtype Warning: Could not parse font size `footnotesize'
+(microtype)                in font set `scriptsize' on input line 86.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89    { font = */*/*/*/* }
+                            
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.89    { font = */*/*/*/* }
+                            
+? 
+
+Package microtype Warning: Could not parse font size `*'
+(microtype)                in font set `normalfont' on input line 89.
+
+! Extra }, or forgotten \endgroup.
+\MT@clist@function ...normalfont}{font=*/*/*/*/*}}
+                                                  
+l.89    { font = */*/*/*/* }
+                            
+? 
+
+Package microtype Warning: family axis is empty in font specification
+(microtype)                `ex////'. Using `cmr' instead on input line 89.
+
+
+Package microtype Warning: series axis is empty in font specification
+(microtype)                `ex////'. Using `m' instead on input line 89.
+
+
+Package microtype Warning: shape axis is empty in font specification
+(microtype)                `ex////'. Using `n' instead on input line 89.
+
+
+Package microtype Warning: size axis is empty in font specification
+(microtype)                `ex////'. Using `\normalsize' instead on input line 
+89.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89    { font = */*/*/*/* }
+                            
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.89    { font = */*/*/*/* }
+                            
+? 
+
+Package microtype Warning: Could not parse font size `*'
+(microtype)                in font set `normalfont' on input line 89.
+
+
+Package microtype Warning: family axis is empty in font specification
+(microtype)                `sp////'. Using `cmr' instead on input line 89.
+
+
+Package microtype Warning: series axis is empty in font specification
+(microtype)                `sp////'. Using `m' instead on input line 89.
+
+
+Package microtype Warning: shape axis is empty in font specification
+(microtype)                `sp////'. Using `n' instead on input line 89.
+
+
+Package microtype Warning: size axis is empty in font specification
+(microtype)                `sp////'. Using `\normalsize' instead on input line 
+89.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89    { font = */*/*/*/* }
+                            
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.89    { font = */*/*/*/* }
+                            
+? 
+
+Package microtype Warning: Could not parse font size `*'
+(microtype)                in font set `normalfont' on input line 89.
+
+
+Package microtype Warning: family axis is empty in font specification
+(microtype)                `kn////'. Using `cmr' instead on input line 89.
+
+
+Package microtype Warning: series axis is empty in font specification
+(microtype)                `kn////'. Using `m' instead on input line 89.
+
+
+Package microtype Warning: shape axis is empty in font specification
+(microtype)                `kn////'. Using `n' instead on input line 89.
+
+
+Package microtype Warning: size axis is empty in font specification
+(microtype)                `kn////'. Using `\normalsize' instead on input line 
+89.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89    { font = */*/*/*/* }
+                            
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.89    { font = */*/*/*/* }
+                            
+? 
+
+Package microtype Warning: Could not parse font size `*'
+(microtype)                in font set `normalfont' on input line 89.
+
+
+Package microtype Warning: family axis is empty in font specification
+(microtype)                `tr////'. Using `cmr' instead on input line 89.
+
+
+Package microtype Warning: series axis is empty in font specification
+(microtype)                `tr////'. Using `m' instead on input line 89.
+
+
+Package microtype Warning: shape axis is empty in font specification
+(microtype)                `tr////'. Using `n' instead on input line 89.
+
+
+Package microtype Warning: size axis is empty in font specification
+(microtype)                `tr////'. Using `\normalsize' instead on input line 
+89.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89    { font = */*/*/*/* }
+                            
+? 
+! Undefined control sequence.
+\MT@get@size ... \def \MT@val {##2}}\@tempa \@nil 
+                                                  \fi \MT@ifdimen \MT@val {\...
+l.89    { font = */*/*/*/* }
+                            
+? 
+
+Package microtype Warning: Could not parse font size `*'
+(microtype)                in font set `normalfont' on input line 89.
+
+
+! Package microtype Error: The expansion set `basictext' is not declared.
+(microtype)                Cannot make it the default set. Using set
+(microtype)                `all' instead.
+
+See the microtype package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 ...MicrotypeSetDefault[expansion] {basictext}
+                                                  
+? 
+
+! Package microtype Error: The spacing set `basictext' is not declared.
+(microtype)                Cannot make it the default set. Using set
+(microtype)                `all' instead.
+
+See the microtype package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...MicrotypeSetDefault[spacing]   {basictext}
+                                                  
+? 
+)
+! Missing \endcsname inserted.
+<to be read again> 
+                   \@classoptionslist 
+l.2147 \MT@ProcessOptionsWithKV{MT}
+                                   
+? 
+)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.120 
+      
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.120 
+      
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.120 
+      
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.120 
+      
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.120 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.120 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.120 
+      
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.120 
+      
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.120 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.120 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.120 
+      
+? 
+
+Overfull \hbox (21.0pt too wide) in paragraph at lines 64--120
+[]$[]$ 
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21v2.11LaTeXcolorextensions(UK)
+
+! Bad character code (6411).
+<to be read again> 
+                   \catcode 
+l.62 \@makeother\!
+                   \@makeother\" \@makeother\' \@makeother\* \@makeother\,
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \@makeother\!
+                   \@makeother\" \@makeother\' \@makeother\* \@makeother\,
+? 
+! Bad character code (947).
+<to be read again> 
+                   \catcode 
+l.66 \catcode
+             `\^^A=14 %
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driverfile:dvips.def on input line 225.
+Package xcolor Info: Model`cmy'substitutedby`cmy0' on input line 1337.
+Package xcolor Info: Model`RGB'extended on input line 1353.
+Package xcolor Info: Model`HTML'substitutedby`rgb' on input line 1355.
+Package xcolor Info: Model`Hsb'substitutedby`hsb' on input line 1356.
+Package xcolor Info: Model`tHsb'substitutedby`hsb' on input line 1357.
+Package xcolor Info: Model`HSB'substitutedby`hsb' on input line 1358.
+Package xcolor Info: Model`Gray'substitutedby`gray' on input line 1359.
+Package xcolor Info: Model`wave'substitutedby`hsb' on input line 1360.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.1429 ...olet,.5,0,.5/.83333,1,.5/0,.5,0,.5/.205}
+                                                  %
+? 
+! Undefined control sequence.
+<argument> XC@mod@\@@mod 
+                         
+l.1429 ...olet,.5,0,.5/.83333,1,.5/0,.5,0,.5/.205}
+                                                  %
+? 
+
+! Undefined control sequence.
+ ...kage xcolor Error: Undefinedcolormodel`\@@mod 
+                                                  '.
+
+See the xcolor package...
+l.1429 ...olet,.5,0,.5/.83333,1,.5/0,.5,0,.5/.205}
+                                                  %
+? 
+! Package xcolor Error: Undefinedcolormodel`'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1429 ...olet,.5,0,.5/.83333,1,.5/0,.5,0,.5/.205}
+                                                  %
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.1434   olive,0,0,1,.5/.5,.5,0/.16667,1,.5/.39}
+                                                
+? 
+! Undefined control sequence.
+<argument> XC@mod@\@@mod 
+                         
+l.1434   olive,0,0,1,.5/.5,.5,0/.16667,1,.5/.39}
+                                                
+? 
+
+! Undefined control sequence.
+ ...kage xcolor Error: Undefinedcolormodel`\@@mod 
+                                                  '.
+
+See the xcolor package...
+l.1434   olive,0,0,1,.5/.5,.5,0/.16667,1,.5/.39}
+                                                
+? 
+! Package xcolor Error: Undefinedcolormodel`'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1434   olive,0,0,1,.5/.5,.5,0/.16667,1,.5/.39}
+                                                
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.1440   white,1/1,1,1/0,0,1/0,0,0,0}
+                                     
+? 
+! Undefined control sequence.
+<argument> XC@mod@\@@mod 
+                         
+l.1440   white,1/1,1,1/0,0,1/0,0,0,0}
+                                     
+? 
+
+! Undefined control sequence.
+ ...kage xcolor Error: Undefinedcolormodel`\@@mod 
+                                                  '.
+
+See the xcolor package...
+l.1440   white,1/1,1,1/0,0,1/0,0,0,0}
+                                     
+? 
+! Package xcolor Error: Undefinedcolormodel`'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1440   white,1/1,1,1/0,0,1/0,0,0,0}
+                                     
+? 
+! Bad character code (3312).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (3412).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (3912).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (4212).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (4412).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (4512).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (4612).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (4712).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (5812).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (5912).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (6012).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (6112).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (6212).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (6312).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (6411).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (947).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+! Bad character code (9612).
+<to be read again> 
+                   \catcode 
+l.1444 \XC@catcodes
+                   
+? 
+
+! Package xcolor Error: Undefinedcolor`black'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1446 \color{black}
+                    
+? 
+! Undefined control sequence.
+\XC@declaredcolor ...nd \@undeclaredcolor [\@@mod 
+                                                  ]{\@@clr }}\expandafter \e...
+l.1446 \color{black}
+                    
+? 
+! Undefined control sequence.
+\XC@declaredcolor ...claredcolor [\@@mod ]{\@@clr 
+                                                  }}\expandafter \endgroup \...
+l.1446 \color{black}
+                    
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   >
+l.1446 \color{black}
+                    
+? 
+! Undefined control sequence.
+<argument> XC@mod@\@@mod 
+                         
+l.1446 \color{black}
+                    
+? 
+
+! Undefined control sequence.
+ ...kage xcolor Error: Undefinedcolormodel`\@@mod 
+                                                  '.
+
+See the xcolor package...
+l.1446 \color{black}
+                    
+? 
+! Package xcolor Error: Undefinedcolormodel`'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1446 \color{black}
+                    
+? 
+)
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.131 \definecolor{darkblue}{rgb}{0,0,.6}
+                                         
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \edef 
+l.131 \definecolor{darkblue}{rgb}{0,0,.6}
+                                         
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \edef 
+l.131 \definecolor{darkblue}{rgb}{0,0,.6}
+                                         
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16 ver3.4 Verbmodeforurls,etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06v6.83mHypertextlinksforLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen129
+\Hy@linkcounter=\count97
+\Hy@pagecounter=\count98
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count99
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count100
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen130
+\Fld@menulength=\count101
+\Field@Width=\dimen131
+\Fld@charsize=\dimen132
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+
+Overfull \hbox (37.7779pt too wide) in paragraph at lines 62--6363
+[]\OT1/cmr/m/n/10 12=1415
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 62--6363
+\OT1/cmr/m/n/10 0
+ []
+
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+
+Package hyperref Warning: Option `pdfpagelabels' is turned off
+(hyperref)                because \thepage is undefined.
+
+\c@Item=\count102
+\c@Hfootnote=\count103
+)
+
+Package hyperref Message: Driver (default): hdvips.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
+
+
+! Package hyperref Error: Version mismatch!
+(hyperref)                * 2012/11/06v6.83mHypertextlinksforLaTeX : hyperref.s
+ty
+(hyperref)                * 2012/11/06 v6.83m: hdvips.def.
+
+See the hyperref package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \Hy@VersionCheck{hdvips.def}
+                                 
+? 
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
+
+
+! Package hyperref Error: Version mismatch!
+(hyperref)                * 2012/11/06v6.83mHypertextlinksforLaTeX : hyperref.s
+ty
+(hyperref)                * 2012/11/06 v6.83m: pdfmark.def.
+
+See the hyperref package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \Hy@VersionCheck{pdfmark.def}
+                                  
+? 
+\pdf@docset=\toks22
+\pdf@box=\box28
+\pdf@toks=\toks23
+\pdf@defaulttoks=\toks24
+\HyField@AnnotCount=\count104
+\Fld@listcount=\count105
+\c@bookmark@seq@number=\count106
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip56
+))
+Package hyperref Info: Option `breaklinks' set `true' on input line 141.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 141.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 141.
+
+Package hyperref Info: Option `colorlinks' set `true' on input line 141.
+
+
+! LaTeX Error: Environment abstract undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \renewenvironment{abstract}
+                                 {\begin{minipage}{\textwidth}\parskip=1.4ex...
+
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 \usepackage{
+                  listings} % For source code
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152 \usepackage{
+                  enumerate}
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 \usepackage{
+                  graphicx} % For images
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \usepackage{
+                  float}    % For tables and other floats
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 \usepackage{
+                  subfig}   % For subfigures
+? 
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 \usepackage{
+                  epstopdf}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.161 \definecolor{mygrey}{gray}{.96}
+                                      % Light Grey
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \definecolor{mygrey}{gray}{.96}
+                                      % Light Grey
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \edef 
+l.161 \definecolor{mygrey}{gray}{.96}
+                                      % Light Grey
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \edef 
+l.161 \definecolor{mygrey}{gray}{.96}
+                                      % Light Grey
+? 
+! Undefined control sequence.
+l.163 \lstset
+             {
+? 
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 161--183
+[]\OT1/cmr/m/n/10 ,,0
+ []
+
+
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 0,0,
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 lan-
+ []
+
+
+Overfull \hbox (42.91676pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 guage=R,
+ []
+
+
+Overfull \hbox (17.77782pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 tab-
+ []
+
+
+Overfull \hbox (31.16672pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 size=3,
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 ba-
+ []
+
+
+Overfull \hbox (14.5pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 sic-
+ []
+
+
+Overfull \hbox (30.61118pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 style=,
+ []
+
+
+Overfull \hbox (22.50005pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 num-
+ []
+
+
+Overfull \hbox (42.8612pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 bers=left,
+ []
+
+
+Overfull \hbox (22.50005pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 num-
+ []
+
+
+Overfull \hbox (17.5278pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 ber-
+ []
+
+
+Overfull \hbox (30.61118pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 style=,
+ []
+
+
+Overfull \hbox (21.16669pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 step-
+ []
+
+
+Overfull \hbox (22.50005pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 num-
+ []
+
+
+Overfull \hbox (29.75008pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 ber=1,
+ []
+
+
+Overfull \hbox (22.50005pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 num-
+ []
+
+
+Overfull \hbox (53.139pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 bersep=5pt,
+ []
+
+
+Overfull \hbox (23.33337pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 back-
+ []
+
+
+Overfull \hbox (33.91675pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 ground-
+ []
+
+
+Overfull \hbox (31.69452pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 color=[],
+ []
+
+
+Overfull \hbox (28.72224pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 shows-
+ []
+
+
+Overfull \hbox (53.16676pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 paces=false,
+ []
+
+
+Overfull \hbox (24.7778pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 show-
+ []
+
+
+Overfull \hbox (82.1946pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 stringspaces=false,
+ []
+
+
+Overfull \hbox (69.61125pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 showtabs=false,
+ []
+
+
+Overfull \hbox (59.8057pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 frame=single,
+ []
+
+
+Overfull \hbox (17.77782pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 tab-
+ []
+
+
+Overfull \hbox (31.16672pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 size=3,
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 cap-
+ []
+
+
+Overfull \hbox (20.5556pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 tion-
+ []
+
+
+Overfull \hbox (30.88898pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 pos=b,
+ []
+
+
+Overfull \hbox (27.52783pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 break-
+ []
+
+
+Overfull \hbox (47.8612pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 lines=true,
+ []
+
+
+Overfull \hbox (63.41678pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 breakatwhites-
+ []
+
+
+Overfull \hbox (49.22232pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 pace=false,
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (49.77788pt too wide) in paragraph at lines 161--183
+\OT1/cmr/m/n/10 mentstyle=[][][] 
+ []
+
+)
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+! Emergency stop.
+<*> 
+    
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 8186 strings out of 495021
+ 123923 string characters out of 6181350
+ 259297 words of memory out of 5000000
+ 11371 multiletter control sequences out of 15000+600000
+ 6851 words of font info for 25 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 36i,6n,43p,248b,4894s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
